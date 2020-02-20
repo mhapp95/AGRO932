@@ -1,7 +1,7 @@
 	-> Command: 
-angsd -bam raw/bam.txt -out raw/out -doThetas 1 -doSaf 1 -pest raw/out.sfs -anc reference/GlyMax_CompleteMitochondria.fasta -GL 1 
+angsd -bam raw/bam.txt -out raw/out -doThetas 1 -doSaf 1 -pest raw/out.sfs -anc reference/ZeaMays_Chloroplast.fasta -GL 1 
 	-> angsd version: 0.931-17-g4c28453 (htslib: 1.10.2-28-g8fc5c63) build(Feb 19 2020 22:08:27)
-	-> Thu Feb 20 00:18:08 2020
+	-> Thu Feb 20 07:24:24 2020
 ----------------
 multiReader.cpp:
 	-nLines	50	(Number of lines to read)
@@ -152,7 +152,7 @@ abcSaf.cpp:
 	-doThetas		0 (calculate thetas)
 	-underFlowProtect	0
 	-fold			0 (deprecated)
-	-anc			reference/GlyMax_CompleteMitochondria.fasta (ancestral fasta)
+	-anc			reference/ZeaMays_Chloroplast.fasta (ancestral fasta)
 	-noTrans		0 (remove transitions)
 	-pest			raw/out.sfs (prior SFS)
 	-isHap			0 (is haploid beta!)
@@ -168,5 +168,5 @@ abcHetPlas.cpp:
 		->"raw/out.thetas.gz"
 		->"raw/out.thetas.idx"
 
-	[ALL done] cpu-time used =  35.40 sec
-	[ALL done] walltime used =  36.00 sec
+	[ALL done] cpu-time used =  12.59 sec
+	[ALL done] walltime used =  13.00 sec
