@@ -1,0 +1,867 @@
+##gff-version 3
+##sequence-region   Pt 1 140384
+#!genome-build Gramene B73 RefGen_v4
+#!genome-version B73_RefGen_v4
+#!genome-date 2017-02
+#!genome-build-accession GCA_000005005.6
+#!genebuild-last-updated 2016-12
+Pt	Gramene	chromosome	1	140384	.	.	.	ID=chromosome:Pt;Alias=X86563.2;Is_circular=true
+###
+Pt	ensembl	gene	89	1150	.	-	.	ID=gene:ZemaCp002;Name=psbA;biotype=protein_coding;description=psbA;gene_id=ZemaCp002;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	89	1150	.	-	.	ID=transcript:ZemaCp002;Parent=gene:ZemaCp002;biotype=protein_coding;transcript_id=ZemaCp002
+Pt	NCBI	exon	89	1150	.	-	.	Parent=transcript:ZemaCp002;Name=ZemaCp002.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp002.exon1;rank=1
+Pt	NCBI	CDS	89	1150	.	-	0	ID=CDS:ZemaCp002;Parent=transcript:ZemaCp002;protein_id=ZemaCp002
+###
+Pt	ensembl	ncRNA_gene	1386	3946	.	-	.	ID=gene:ZemaCt121;biotype=tRNA;description=trnKtRNA-Lys;gene_id=ZemaCt121;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	1386	3946	.	-	.	ID=transcript:ZemaCt121;Parent=gene:ZemaCt121;biotype=tRNA;transcript_id=ZemaCt121
+Pt	NCBI	exon	1386	1420	.	-	.	Parent=transcript:ZemaCt121;Name=ZemaCt121.exon2;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt121.exon2;rank=2
+Pt	NCBI	exon	3910	3946	.	-	.	Parent=transcript:ZemaCt121;Name=ZemaCt121.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt121.exon1;rank=1
+###
+Pt	Ensembl_Plants	ncRNA_gene	1421	1503	.	-	.	ID=gene:ENSRNA049479700;Name=Intron_gpII;biotype=sense_intronic;description=Group II catalytic intron;gene_id=ENSRNA049479700;logic_name=rfam_12.2_gene
+Pt	Ensembl_Plants	lnc_RNA	1421	1503	.	-	.	ID=transcript:ENSRNA049479700-T1;Parent=gene:ENSRNA049479700;biotype=sense_intronic;transcript_id=ENSRNA049479700-T1
+Pt	Ensembl_Plants	exon	1421	1503	.	-	.	Parent=transcript:ENSRNA049479700-T1;Name=ENSRNA049479700-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSRNA049479700-E1;rank=1
+###
+Pt	ensembl	gene	1674	3215	.	-	.	ID=gene:ZemaCp003;biotype=protein_coding;description=matK;gene_id=ZemaCp003;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	1674	3215	.	-	.	ID=transcript:ZemaCp003;Parent=gene:ZemaCp003;biotype=protein_coding;transcript_id=ZemaCp003
+Pt	NCBI	exon	1674	3215	.	-	.	Parent=transcript:ZemaCp003;Name=ZemaCp003.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp003.exon1;rank=1
+Pt	NCBI	CDS	1674	3215	.	-	0	ID=CDS:ZemaCp003;Parent=transcript:ZemaCp003;protein_id=ZemaCp003
+###
+Pt	ensembl	gene	4491	5604	.	-	.	ID=gene:ZemaCp004;Name=rps16;biotype=protein_coding;description=rps16;gene_id=ZemaCp004;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	4491	5604	.	-	.	ID=transcript:ZemaCp004;Parent=gene:ZemaCp004;biotype=protein_coding;transcript_id=ZemaCp004
+Pt	NCBI	exon	4491	4708	.	-	.	Parent=transcript:ZemaCp004;Name=ZemaCp004.exon2;constitutive=1;ensembl_end_phase=0;ensembl_phase=1;exon_id=ZemaCp004.exon2;rank=2
+Pt	NCBI	CDS	4491	4708	.	-	2	ID=CDS:ZemaCp004;Parent=transcript:ZemaCp004;protein_id=ZemaCp004
+Pt	NCBI	exon	5565	5604	.	-	.	Parent=transcript:ZemaCp004;Name=ZemaCp004.exon1;constitutive=1;ensembl_end_phase=1;ensembl_phase=0;exon_id=ZemaCp004.exon1;rank=1
+Pt	NCBI	CDS	5565	5604	.	-	0	ID=CDS:ZemaCp004;Parent=transcript:ZemaCp004;protein_id=ZemaCp004
+###
+Pt	ensembl	ncRNA_gene	6773	6844	.	-	.	ID=gene:ZemaCt122;biotype=tRNA;description=trnQtRNA-Gln;gene_id=ZemaCt122;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	6773	6844	.	-	.	ID=transcript:ZemaCt122;Parent=gene:ZemaCt122;biotype=tRNA;transcript_id=ZemaCt122
+Pt	NCBI	exon	6773	6844	.	-	.	Parent=transcript:ZemaCt122;Name=ZemaCt122.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt122.exon1;rank=1
+###
+Pt	ensembl	gene	7199	7384	.	+	.	ID=gene:ZemaCp005;Name=psbK;biotype=protein_coding;description=psbK;gene_id=ZemaCp005;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	7199	7384	.	+	.	ID=transcript:ZemaCp005;Parent=gene:ZemaCp005;biotype=protein_coding;transcript_id=ZemaCp005
+Pt	NCBI	exon	7199	7384	.	+	.	Parent=transcript:ZemaCp005;Name=ZemaCp005.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp005.exon1;rank=1
+Pt	NCBI	CDS	7199	7384	.	+	0	ID=CDS:ZemaCp005;Parent=transcript:ZemaCp005;protein_id=ZemaCp005
+###
+Pt	ensembl	gene	7775	7885	.	+	.	ID=gene:ZemaCp006;Name=psbI;biotype=protein_coding;description=psbI;gene_id=ZemaCp006;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	7775	7885	.	+	.	ID=transcript:ZemaCp006;Parent=gene:ZemaCp006;biotype=protein_coding;transcript_id=ZemaCp006
+Pt	NCBI	exon	7775	7885	.	+	.	Parent=transcript:ZemaCp006;Name=ZemaCp006.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp006.exon1;rank=1
+Pt	NCBI	CDS	7775	7885	.	+	0	ID=CDS:ZemaCp006;Parent=transcript:ZemaCp006;protein_id=ZemaCp006
+###
+Pt	ensembl	ncRNA_gene	8012	8099	.	-	.	ID=gene:ZemaCt123;biotype=tRNA;description=trnStRNA-Ser;gene_id=ZemaCt123;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	8012	8099	.	-	.	ID=transcript:ZemaCt123;Parent=gene:ZemaCt123;biotype=tRNA;transcript_id=ZemaCt123
+Pt	NCBI	exon	8012	8099	.	-	.	Parent=transcript:ZemaCt123;Name=ZemaCt123.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt123.exon1;rank=1
+###
+Pt	ensembl	gene	9083	10144	.	+	.	ID=gene:ZemaCp007;Name=psbD;biotype=protein_coding;description=psbD;gene_id=ZemaCp007;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	9083	10144	.	+	.	ID=transcript:ZemaCp007;Parent=gene:ZemaCp007;biotype=protein_coding;transcript_id=ZemaCp007
+Pt	NCBI	exon	9083	10144	.	+	.	Parent=transcript:ZemaCp007;Name=ZemaCp007.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp007.exon1;rank=1
+Pt	NCBI	CDS	9083	10144	.	+	0	ID=CDS:ZemaCp007;Parent=transcript:ZemaCp007;protein_id=ZemaCp007
+###
+Pt	ensembl	gene	10092	11513	.	+	.	ID=gene:ZemaCp008;Name=psbC;biotype=protein_coding;description=psbC;gene_id=ZemaCp008;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	10092	11513	.	+	.	ID=transcript:ZemaCp008;Parent=gene:ZemaCp008;biotype=protein_coding;transcript_id=ZemaCp008
+Pt	NCBI	exon	10092	11513	.	+	.	Parent=transcript:ZemaCp008;Name=ZemaCp008.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp008.exon1;rank=1
+Pt	NCBI	CDS	10092	11513	.	+	0	ID=CDS:ZemaCp008;Parent=transcript:ZemaCp008;protein_id=ZemaCp008
+###
+Pt	Ensembl_Plants	ncRNA_gene	10542	10728	.	-	.	ID=gene:ENSRNA049479649;Name=IsrR;biotype=antisense_RNA;description=Antisense RNA which regulates isiA expression;gene_id=ENSRNA049479649;logic_name=rfam_12.2_gene
+Pt	Ensembl_Plants	lnc_RNA	10542	10728	.	-	.	ID=transcript:ENSRNA049479649-T1;Parent=gene:ENSRNA049479649;biotype=antisense_RNA;transcript_id=ENSRNA049479649-T1
+Pt	Ensembl_Plants	exon	10542	10728	.	-	.	Parent=transcript:ENSRNA049479649-T1;Name=ENSRNA049479649-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSRNA049479649-E1;rank=1
+###
+Pt	ensembl	ncRNA_gene	11669	11756	.	-	.	ID=gene:ZemaCt124;biotype=tRNA;description=trnStRNA-Ser;gene_id=ZemaCt124;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	11669	11756	.	-	.	ID=transcript:ZemaCt124;Parent=gene:ZemaCt124;biotype=tRNA;transcript_id=ZemaCt124
+Pt	NCBI	exon	11669	11756	.	-	.	Parent=transcript:ZemaCt124;Name=ZemaCt124.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt124.exon1;rank=1
+###
+Pt	ensembl	gene	12017	12205	.	+	.	ID=gene:ZemaCp009;Name=psbZ;biotype=protein_coding;description=psbZ;gene_id=ZemaCp009;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	12017	12205	.	+	.	ID=transcript:ZemaCp009;Parent=gene:ZemaCp009;biotype=protein_coding;transcript_id=ZemaCp009
+Pt	NCBI	exon	12017	12205	.	+	.	Parent=transcript:ZemaCp009;Name=ZemaCp009.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp009.exon1;rank=1
+Pt	NCBI	CDS	12017	12205	.	+	0	ID=CDS:ZemaCp009;Parent=transcript:ZemaCp009;protein_id=ZemaCp009
+###
+Pt	ensembl	ncRNA_gene	12509	12579	.	+	.	ID=gene:ZemaCt125;biotype=tRNA;description=trnGtRNA-Gly;gene_id=ZemaCt125;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	12509	12579	.	+	.	ID=transcript:ZemaCt125;Parent=gene:ZemaCt125;biotype=tRNA;transcript_id=ZemaCt125
+Pt	NCBI	exon	12509	12579	.	+	.	Parent=transcript:ZemaCt125;Name=ZemaCt125.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt125.exon1;rank=1
+###
+Pt	ensembl	ncRNA_gene	13073	13146	.	-	.	ID=gene:ZemaCt126;biotype=tRNA;description=trnfMtRNA-Met;gene_id=ZemaCt126;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	13073	13146	.	-	.	ID=transcript:ZemaCt126;Parent=gene:ZemaCt126;biotype=tRNA;transcript_id=ZemaCt126
+Pt	NCBI	exon	13073	13146	.	-	.	Parent=transcript:ZemaCt126;Name=ZemaCt126.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt126.exon1;rank=1
+###
+Pt	ensembl	ncRNA_gene	13245	14013	.	-	.	ID=gene:ZemaCt127;biotype=tRNA;description=trnGtRNA-Gly;gene_id=ZemaCt127;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	13245	14013	.	-	.	ID=transcript:ZemaCt127;Parent=gene:ZemaCt127;biotype=tRNA;transcript_id=ZemaCt127
+Pt	NCBI	exon	13245	13292	.	-	.	Parent=transcript:ZemaCt127;Name=ZemaCt127.exon2;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt127.exon2;rank=2
+Pt	NCBI	exon	13991	14013	.	-	.	Parent=transcript:ZemaCt127;Name=ZemaCt127.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt127.exon1;rank=1
+###
+Pt	ensembl	gene	14498	14707	.	-	.	ID=gene:ZemaCp010;Name=ycf70;biotype=protein_coding;description=ZemaCp010;gene_id=ZemaCp010;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	14498	14707	.	-	.	ID=transcript:ZemaCp010;Parent=gene:ZemaCp010;biotype=protein_coding;transcript_id=ZemaCp010
+Pt	NCBI	exon	14498	14707	.	-	.	Parent=transcript:ZemaCp010;Name=ZemaCp010.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp010.exon1;rank=1
+Pt	NCBI	CDS	14498	14707	.	-	0	ID=CDS:ZemaCp010;Parent=transcript:ZemaCp010;protein_id=ZemaCp010
+###
+Pt	ensembl	ncRNA_gene	15887	15958	.	+	.	ID=gene:ZemaCt128;biotype=tRNA;description=trnTtRNA-Thr;gene_id=ZemaCt128;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	15887	15958	.	+	.	ID=transcript:ZemaCt128;Parent=gene:ZemaCt128;biotype=tRNA;transcript_id=ZemaCt128
+Pt	NCBI	exon	15887	15958	.	+	.	Parent=transcript:ZemaCt128;Name=ZemaCt128.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt128.exon1;rank=1
+###
+Pt	ensembl	pseudogene	15954	16025	.	+	.	ID=gene:ZemaCt129;biotype=pseudogene;description=trnT;gene_id=ZemaCt129;logic_name=organellar_genes_ncbi
+Pt	NCBI	pseudogenic_transcript	15954	16025	.	+	.	ID=transcript:ZemaCt129;Parent=gene:ZemaCt129;biotype=pseudogene;transcript_id=ZemaCt129
+Pt	NCBI	exon	15954	16025	.	+	.	Parent=transcript:ZemaCt129;Name=ZemaCt129.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt129.exon1;rank=1
+###
+Pt	ensembl	ncRNA_gene	16487	16559	.	+	.	ID=gene:ZemaCt130;biotype=tRNA;description=trnEtRNA-Glu;gene_id=ZemaCt130;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	16487	16559	.	+	.	ID=transcript:ZemaCt130;Parent=gene:ZemaCt130;biotype=tRNA;transcript_id=ZemaCt130
+Pt	NCBI	exon	16487	16559	.	+	.	Parent=transcript:ZemaCt130;Name=ZemaCt130.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt130.exon1;rank=1
+###
+Pt	ensembl	ncRNA_gene	16621	16704	.	+	.	ID=gene:ZemaCt131;biotype=tRNA;description=trnYtRNA-Tyr;gene_id=ZemaCt131;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	16621	16704	.	+	.	ID=transcript:ZemaCt131;Parent=gene:ZemaCt131;biotype=tRNA;transcript_id=ZemaCt131
+Pt	NCBI	exon	16621	16704	.	+	.	Parent=transcript:ZemaCt131;Name=ZemaCt131.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt131.exon1;rank=1
+###
+Pt	ensembl	ncRNA_gene	17053	17126	.	+	.	ID=gene:ZemaCt132;biotype=tRNA;description=trnDtRNA-Asp;gene_id=ZemaCt132;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	17053	17126	.	+	.	ID=transcript:ZemaCt132;Parent=gene:ZemaCt132;biotype=tRNA;transcript_id=ZemaCt132
+Pt	NCBI	exon	17053	17126	.	+	.	Parent=transcript:ZemaCt132;Name=ZemaCt132.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt132.exon1;rank=1
+###
+Pt	ensembl	gene	18178	18282	.	+	.	ID=gene:ZemaCp011;Name=psbM;biotype=protein_coding;description=psbM;gene_id=ZemaCp011;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	18178	18282	.	+	.	ID=transcript:ZemaCp011;Parent=gene:ZemaCp011;biotype=protein_coding;transcript_id=ZemaCp011
+Pt	NCBI	exon	18178	18282	.	+	.	Parent=transcript:ZemaCp011;Name=ZemaCp011.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp011.exon1;rank=1
+Pt	NCBI	CDS	18178	18282	.	+	0	ID=CDS:ZemaCp011;Parent=transcript:ZemaCp011;protein_id=ZemaCp011
+###
+Pt	ensembl	gene	19081	19170	.	-	.	ID=gene:ZemaCp012;Name=petN;biotype=protein_coding;description=petN;gene_id=ZemaCp012;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	19081	19170	.	-	.	ID=transcript:ZemaCp012;Parent=gene:ZemaCp012;biotype=protein_coding;transcript_id=ZemaCp012
+Pt	NCBI	exon	19081	19170	.	-	.	Parent=transcript:ZemaCp012;Name=ZemaCp012.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp012.exon1;rank=1
+Pt	NCBI	CDS	19081	19170	.	-	0	ID=CDS:ZemaCp012;Parent=transcript:ZemaCp012;protein_id=ZemaCp012
+###
+Pt	ensembl	ncRNA_gene	20125	20195	.	-	.	ID=gene:ZemaCt133;biotype=tRNA;description=trnCtRNA-Cys;gene_id=ZemaCt133;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	20125	20195	.	-	.	ID=transcript:ZemaCt133;Parent=gene:ZemaCt133;biotype=tRNA;transcript_id=ZemaCt133
+Pt	NCBI	exon	20125	20195	.	-	.	Parent=transcript:ZemaCt133;Name=ZemaCt133.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt133.exon1;rank=1
+###
+Pt	ensembl	gene	21468	24695	.	+	.	ID=gene:ZemaCp013;Name=rpoB;biotype=protein_coding;description=rpoB;gene_id=ZemaCp013;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	21468	24695	.	+	.	ID=transcript:ZemaCp013;Parent=gene:ZemaCp013;biotype=protein_coding;transcript_id=ZemaCp013
+Pt	NCBI	exon	21468	24695	.	+	.	Parent=transcript:ZemaCp013;Name=ZemaCp013.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp013.exon1;rank=1
+Pt	NCBI	CDS	21468	24695	.	+	0	ID=CDS:ZemaCp013;Parent=transcript:ZemaCp013;protein_id=ZemaCp013
+###
+Pt	ensembl	gene	24733	26784	.	+	.	ID=gene:ZemaCp014;Name=rpoC1;biotype=protein_coding;description=rpoC1;gene_id=ZemaCp014;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	24733	26784	.	+	.	ID=transcript:ZemaCp014;Parent=gene:ZemaCp014;biotype=protein_coding;transcript_id=ZemaCp014
+Pt	NCBI	exon	24733	26784	.	+	.	Parent=transcript:ZemaCp014;Name=ZemaCp014.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp014.exon1;rank=1
+Pt	NCBI	CDS	24733	26784	.	+	0	ID=CDS:ZemaCp014;Parent=transcript:ZemaCp014;protein_id=ZemaCp014
+###
+Pt	ensembl	gene	26983	31566	.	+	.	ID=gene:ZemaCp015;Name=rpoC2;biotype=protein_coding;description=rpoC2;gene_id=ZemaCp015;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	26983	31566	.	+	.	ID=transcript:ZemaCp015;Parent=gene:ZemaCp015;biotype=protein_coding;transcript_id=ZemaCp015
+Pt	NCBI	exon	26983	31566	.	+	.	Parent=transcript:ZemaCp015;Name=ZemaCp015.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp015.exon1;rank=1
+Pt	NCBI	CDS	26983	31566	.	+	0	ID=CDS:ZemaCp015;Parent=transcript:ZemaCp015;protein_id=ZemaCp015
+###
+Pt	ensembl	gene	31858	32568	.	+	.	ID=gene:ZemaCp016;Name=rps2;biotype=protein_coding;description=rps2;gene_id=ZemaCp016;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	31858	32568	.	+	.	ID=transcript:ZemaCp016;Parent=gene:ZemaCp016;biotype=protein_coding;transcript_id=ZemaCp016
+Pt	NCBI	exon	31858	32568	.	+	.	Parent=transcript:ZemaCp016;Name=ZemaCp016.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp016.exon1;rank=1
+Pt	NCBI	CDS	31858	32568	.	+	0	ID=CDS:ZemaCp016;Parent=transcript:ZemaCp016;protein_id=ZemaCp016
+###
+Pt	ensembl	gene	32820	33563	.	+	.	ID=gene:ZemaCp017;Name=atpI;biotype=protein_coding;description=atpI;gene_id=ZemaCp017;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	32820	33563	.	+	.	ID=transcript:ZemaCp017;Parent=gene:ZemaCp017;biotype=protein_coding;transcript_id=ZemaCp017
+Pt	NCBI	exon	32820	33563	.	+	.	Parent=transcript:ZemaCp017;Name=ZemaCp017.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp017.exon1;rank=1
+Pt	NCBI	CDS	32820	33563	.	+	0	ID=CDS:ZemaCp017;Parent=transcript:ZemaCp017;protein_id=ZemaCp017
+###
+Pt	ensembl	gene	34381	34626	.	+	.	ID=gene:ZemaCp018;Name=atpH;biotype=protein_coding;description=atpH;gene_id=ZemaCp018;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	34381	34626	.	+	.	ID=transcript:ZemaCp018;Parent=gene:ZemaCp018;biotype=protein_coding;transcript_id=ZemaCp018
+Pt	NCBI	exon	34381	34626	.	+	.	Parent=transcript:ZemaCp018;Name=ZemaCp018.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp018.exon1;rank=1
+Pt	NCBI	CDS	34381	34626	.	+	0	ID=CDS:ZemaCp018;Parent=transcript:ZemaCp018;protein_id=ZemaCp018
+###
+Pt	ensembl	gene	35097	36479	.	+	.	ID=gene:ZemaCp019;Name=atpF;biotype=protein_coding;description=atpF;gene_id=ZemaCp019;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	35097	36479	.	+	.	ID=transcript:ZemaCp019;Parent=gene:ZemaCp019;biotype=protein_coding;transcript_id=ZemaCp019
+Pt	NCBI	exon	35097	35241	.	+	.	Parent=transcript:ZemaCp019;Name=ZemaCp019.exon1;constitutive=1;ensembl_end_phase=1;ensembl_phase=0;exon_id=ZemaCp019.exon1;rank=1
+Pt	NCBI	CDS	35097	35241	.	+	0	ID=CDS:ZemaCp019;Parent=transcript:ZemaCp019;protein_id=ZemaCp019
+Pt	NCBI	exon	36073	36479	.	+	.	Parent=transcript:ZemaCp019;Name=ZemaCp019.exon2;constitutive=1;ensembl_end_phase=0;ensembl_phase=1;exon_id=ZemaCp019.exon2;rank=2
+Pt	NCBI	CDS	36073	36479	.	+	2	ID=CDS:ZemaCp019;Parent=transcript:ZemaCp019;protein_id=ZemaCp019
+###
+Pt	Ensembl_Plants	ncRNA_gene	35985	36072	.	+	.	ID=gene:ENSRNA049479657;Name=Intron_gpII;biotype=sense_intronic;description=Group II catalytic intron;gene_id=ENSRNA049479657;logic_name=rfam_12.2_gene
+Pt	Ensembl_Plants	lnc_RNA	35985	36072	.	+	.	ID=transcript:ENSRNA049479657-T1;Parent=gene:ENSRNA049479657;biotype=sense_intronic;transcript_id=ENSRNA049479657-T1
+Pt	Ensembl_Plants	exon	35985	36072	.	+	.	Parent=transcript:ENSRNA049479657-T1;Name=ENSRNA049479657-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSRNA049479657-E1;rank=1
+###
+Pt	ensembl	gene	36573	38096	.	+	.	ID=gene:ZemaCp020;Name=ATPA;biotype=protein_coding;description=atpA;gene_id=ZemaCp020;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	36573	38096	.	+	.	ID=transcript:ZemaCp020;Parent=gene:ZemaCp020;biotype=protein_coding;transcript_id=ZemaCp020
+Pt	NCBI	exon	36573	38096	.	+	.	Parent=transcript:ZemaCp020;Name=ZemaCp020.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp020.exon1;rank=1
+Pt	NCBI	CDS	36573	38096	.	+	0	ID=CDS:ZemaCp020;Parent=transcript:ZemaCp020;protein_id=ZemaCp020
+###
+Pt	ensembl	ncRNA_gene	38228	38299	.	-	.	ID=gene:ZemaCt134;biotype=tRNA;description=trnRtRNA-Arg;gene_id=ZemaCt134;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	38228	38299	.	-	.	ID=transcript:ZemaCt134;Parent=gene:ZemaCt134;biotype=tRNA;transcript_id=ZemaCt134
+Pt	NCBI	exon	38228	38299	.	-	.	Parent=transcript:ZemaCt134;Name=ZemaCt134.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt134.exon1;rank=1
+###
+Pt	ensembl	gene	38663	38974	.	-	.	ID=gene:ZemaCp021;Name=rps14;biotype=protein_coding;description=rps14;gene_id=ZemaCp021;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	38663	38974	.	-	.	ID=transcript:ZemaCp021;Parent=gene:ZemaCp021;biotype=protein_coding;transcript_id=ZemaCp021
+Pt	NCBI	exon	38663	38974	.	-	.	Parent=transcript:ZemaCp021;Name=ZemaCp021.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp021.exon1;rank=1
+Pt	NCBI	CDS	38663	38974	.	-	0	ID=CDS:ZemaCp021;Parent=transcript:ZemaCp021;protein_id=ZemaCp021
+###
+Pt	ensembl	gene	39119	41326	.	-	.	ID=gene:ZemaCp022;Name=psaB;biotype=protein_coding;description=psaB;gene_id=ZemaCp022;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	39119	41326	.	-	.	ID=transcript:ZemaCp022;Parent=gene:ZemaCp022;biotype=protein_coding;transcript_id=ZemaCp022
+Pt	NCBI	exon	39119	41326	.	-	.	Parent=transcript:ZemaCp022;Name=ZemaCp022.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp022.exon1;rank=1
+Pt	NCBI	CDS	39119	41326	.	-	0	ID=CDS:ZemaCp022;Parent=transcript:ZemaCp022;protein_id=ZemaCp022
+###
+Pt	ensembl	gene	41352	43604	.	-	.	ID=gene:ZemaCp023;biotype=protein_coding;description=psaA;gene_id=ZemaCp023;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	41352	43604	.	-	.	ID=transcript:ZemaCp023;Parent=gene:ZemaCp023;biotype=protein_coding;transcript_id=ZemaCp023
+Pt	NCBI	exon	41352	43604	.	-	.	Parent=transcript:ZemaCp023;Name=ZemaCp023.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp023.exon1;rank=1
+Pt	NCBI	CDS	41352	43604	.	-	0	ID=CDS:ZemaCp023;Parent=transcript:ZemaCp023;protein_id=ZemaCp023
+###
+Pt	ensembl	gene	44213	46192	.	-	.	ID=gene:ZemaCp024;biotype=protein_coding;description=ycf3;gene_id=ZemaCp024;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	44213	46192	.	-	.	ID=transcript:ZemaCp024;Parent=gene:ZemaCp024;biotype=protein_coding;transcript_id=ZemaCp024
+Pt	NCBI	exon	44213	44371	.	-	.	Parent=transcript:ZemaCp024;Name=ZemaCp024.exon3;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp024.exon3;rank=3
+Pt	NCBI	CDS	44213	44371	.	-	0	ID=CDS:ZemaCp024;Parent=transcript:ZemaCp024;protein_id=ZemaCp024
+Pt	NCBI	exon	45103	45332	.	-	.	Parent=transcript:ZemaCp024;Name=ZemaCp024.exon2;constitutive=1;ensembl_end_phase=0;ensembl_phase=1;exon_id=ZemaCp024.exon2;rank=2
+Pt	NCBI	CDS	45103	45332	.	-	2	ID=CDS:ZemaCp024;Parent=transcript:ZemaCp024;protein_id=ZemaCp024
+Pt	NCBI	exon	46069	46192	.	-	.	Parent=transcript:ZemaCp024;Name=ZemaCp024.exon1;constitutive=1;ensembl_end_phase=1;ensembl_phase=0;exon_id=ZemaCp024.exon1;rank=1
+Pt	NCBI	CDS	46069	46192	.	-	0	ID=CDS:ZemaCp024;Parent=transcript:ZemaCp024;protein_id=ZemaCp024
+###
+Pt	Ensembl_Plants	ncRNA_gene	45333	45407	.	-	.	ID=gene:ENSRNA049479776;Name=Intron_gpII;biotype=sense_intronic;description=Group II catalytic intron;gene_id=ENSRNA049479776;logic_name=rfam_12.2_gene
+Pt	Ensembl_Plants	lnc_RNA	45333	45407	.	-	.	ID=transcript:ENSRNA049479776-T1;Parent=gene:ENSRNA049479776;biotype=sense_intronic;transcript_id=ENSRNA049479776-T1
+Pt	Ensembl_Plants	exon	45333	45407	.	-	.	Parent=transcript:ENSRNA049479776-T1;Name=ENSRNA049479776-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSRNA049479776-E1;rank=1
+###
+Pt	ensembl	ncRNA_gene	46790	46876	.	+	.	ID=gene:ZemaCt135;biotype=tRNA;description=trnStRNA-Ser;gene_id=ZemaCt135;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	46790	46876	.	+	.	ID=transcript:ZemaCt135;Parent=gene:ZemaCt135;biotype=tRNA;transcript_id=ZemaCt135
+Pt	NCBI	exon	46790	46876	.	+	.	Parent=transcript:ZemaCt135;Name=ZemaCt135.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt135.exon1;rank=1
+###
+Pt	ensembl	gene	47157	47762	.	-	.	ID=gene:ZemaCp026;Name=RPS4;biotype=protein_coding;description=rps4;gene_id=ZemaCp026;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	47157	47762	.	-	.	ID=transcript:ZemaCp026;Parent=gene:ZemaCp026;biotype=protein_coding;transcript_id=ZemaCp026
+Pt	NCBI	exon	47157	47762	.	-	.	Parent=transcript:ZemaCp026;Name=ZemaCp026.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp026.exon1;rank=1
+Pt	NCBI	CDS	47157	47762	.	-	0	ID=CDS:ZemaCp026;Parent=transcript:ZemaCp026;protein_id=ZemaCp026
+###
+Pt	ensembl	ncRNA_gene	48081	48153	.	-	.	ID=gene:ZemaCt136;biotype=tRNA;description=trnTtRNA-Thr;gene_id=ZemaCt136;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	48081	48153	.	-	.	ID=transcript:ZemaCt136;Parent=gene:ZemaCt136;biotype=tRNA;transcript_id=ZemaCt136
+Pt	NCBI	exon	48081	48153	.	-	.	Parent=transcript:ZemaCt136;Name=ZemaCt136.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt136.exon1;rank=1
+###
+Pt	ensembl	ncRNA_gene	48966	49508	.	+	.	ID=gene:ZemaCt137;biotype=tRNA;description=trnLtRNA-Leu;gene_id=ZemaCt137;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	48966	49508	.	+	.	ID=transcript:ZemaCt137;Parent=gene:ZemaCt137;biotype=tRNA;transcript_id=ZemaCt137
+Pt	NCBI	exon	48966	49000	.	+	.	Parent=transcript:ZemaCt137;Name=ZemaCt137.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt137.exon1;rank=1
+Pt	NCBI	exon	49459	49508	.	+	.	Parent=transcript:ZemaCt137;Name=ZemaCt137.exon2;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt137.exon2;rank=2
+###
+Pt	ensembl	ncRNA_gene	49872	49944	.	+	.	ID=gene:ZemaCt138;biotype=tRNA;description=trnFtRNA-Phe;gene_id=ZemaCt138;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	49872	49944	.	+	.	ID=transcript:ZemaCt138;Parent=gene:ZemaCt138;biotype=tRNA;transcript_id=ZemaCt138
+Pt	NCBI	exon	49872	49944	.	+	.	Parent=transcript:ZemaCt138;Name=ZemaCt138.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt138.exon1;rank=1
+###
+Pt	ensembl	gene	50535	51014	.	-	.	ID=gene:ZemaCp027;Name=ndhJ;biotype=protein_coding;description=ndhJ;gene_id=ZemaCp027;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	50535	51014	.	-	.	ID=transcript:ZemaCp027;Parent=gene:ZemaCp027;biotype=protein_coding;transcript_id=ZemaCp027
+Pt	NCBI	exon	50535	51014	.	-	.	Parent=transcript:ZemaCp027;Name=ZemaCp027.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp027.exon1;rank=1
+Pt	NCBI	CDS	50535	51014	.	-	0	ID=CDS:ZemaCp027;Parent=transcript:ZemaCp027;protein_id=ZemaCp027
+###
+Pt	ensembl	gene	51118	51801	.	-	.	ID=gene:ZemaCp028;biotype=protein_coding;description=ndhK;gene_id=ZemaCp028;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	51118	51801	.	-	.	ID=transcript:ZemaCp028;Parent=gene:ZemaCp028;biotype=protein_coding;transcript_id=ZemaCp028
+Pt	NCBI	exon	51118	51801	.	-	.	Parent=transcript:ZemaCp028;Name=ZemaCp028.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp028.exon1;rank=1
+Pt	NCBI	CDS	51118	51801	.	-	0	ID=CDS:ZemaCp028;Parent=transcript:ZemaCp028;protein_id=ZemaCp028
+###
+Pt	ensembl	gene	51855	52217	.	-	.	ID=gene:ZemaCp029;Name=ndhC;biotype=protein_coding;description=ndhC;gene_id=ZemaCp029;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	51855	52217	.	-	.	ID=transcript:ZemaCp029;Parent=gene:ZemaCp029;biotype=protein_coding;transcript_id=ZemaCp029
+Pt	NCBI	exon	51855	52217	.	-	.	Parent=transcript:ZemaCp029;Name=ZemaCp029.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp029.exon1;rank=1
+Pt	NCBI	CDS	51855	52217	.	-	0	ID=CDS:ZemaCp029;Parent=transcript:ZemaCp029;protein_id=ZemaCp029
+###
+Pt	ensembl	ncRNA_gene	53158	53834	.	-	.	ID=gene:ZemaCt139;biotype=tRNA;description=trnVtRNA-Val;gene_id=ZemaCt139;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	53158	53834	.	-	.	ID=transcript:ZemaCt139;Parent=gene:ZemaCt139;biotype=tRNA;transcript_id=ZemaCt139
+Pt	NCBI	exon	53158	53192	.	-	.	Parent=transcript:ZemaCt139;Name=ZemaCt139.exon2;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt139.exon2;rank=2
+Pt	NCBI	exon	53796	53834	.	-	.	Parent=transcript:ZemaCt139;Name=ZemaCt139.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt139.exon1;rank=1
+###
+Pt	ensembl	ncRNA_gene	54020	54092	.	+	.	ID=gene:ZemaCt140;biotype=tRNA;description=trnMtRNA-Met;gene_id=ZemaCt140;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	54020	54092	.	+	.	ID=transcript:ZemaCt140;Parent=gene:ZemaCt140;biotype=tRNA;transcript_id=ZemaCt140
+Pt	NCBI	exon	54020	54092	.	+	.	Parent=transcript:ZemaCt140;Name=ZemaCt140.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt140.exon1;rank=1
+###
+Pt	ensembl	gene	54208	54621	.	-	.	ID=gene:ZemaCp030;Name=atpE;biotype=protein_coding;description=atpE;gene_id=ZemaCp030;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	54208	54621	.	-	.	ID=transcript:ZemaCp030;Parent=gene:ZemaCp030;biotype=protein_coding;transcript_id=ZemaCp030
+Pt	NCBI	exon	54208	54621	.	-	.	Parent=transcript:ZemaCp030;Name=ZemaCp030.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp030.exon1;rank=1
+Pt	NCBI	CDS	54208	54621	.	-	0	ID=CDS:ZemaCp030;Parent=transcript:ZemaCp030;protein_id=ZemaCp030
+###
+Pt	ensembl	gene	54618	56114	.	-	.	ID=gene:ZemaCp031;Name=atpB;biotype=protein_coding;description=atpB;gene_id=ZemaCp031;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	54618	56114	.	-	.	ID=transcript:ZemaCp031;Parent=gene:ZemaCp031;biotype=protein_coding;transcript_id=ZemaCp031
+Pt	NCBI	exon	54618	56114	.	-	.	Parent=transcript:ZemaCp031;Name=ZemaCp031.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp031.exon1;rank=1
+Pt	NCBI	CDS	54618	56114	.	-	0	ID=CDS:ZemaCp031;Parent=transcript:ZemaCp031;protein_id=ZemaCp031
+###
+Pt	ensembl	gene	56874	58304	.	+	.	ID=gene:ZemaCp032;Name=rbcL;biotype=protein_coding;description=rbcL;gene_id=ZemaCp032;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	56874	58304	.	+	.	ID=transcript:ZemaCp032;Parent=gene:ZemaCp032;biotype=protein_coding;transcript_id=ZemaCp032
+Pt	NCBI	exon	56874	58304	.	+	.	Parent=transcript:ZemaCp032;Name=ZemaCp032.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp032.exon1;rank=1
+Pt	NCBI	CDS	56874	58304	.	+	0	ID=CDS:ZemaCp032;Parent=transcript:ZemaCp032;protein_id=ZemaCp032
+###
+Pt	ensembl	gene	59193	59303	.	+	.	ID=gene:ZemaCp033;Name=psaI;biotype=protein_coding;description=psaI;gene_id=ZemaCp033;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	59193	59303	.	+	.	ID=transcript:ZemaCp033;Parent=gene:ZemaCp033;biotype=protein_coding;transcript_id=ZemaCp033
+Pt	NCBI	exon	59193	59303	.	+	.	Parent=transcript:ZemaCp033;Name=ZemaCp033.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp033.exon1;rank=1
+Pt	NCBI	CDS	59193	59303	.	+	0	ID=CDS:ZemaCp033;Parent=transcript:ZemaCp033;protein_id=ZemaCp033
+###
+Pt	ensembl	gene	59666	60223	.	+	.	ID=gene:ZemaCp034;Name=ycf4;biotype=protein_coding;description=ycf4;gene_id=ZemaCp034;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	59666	60223	.	+	.	ID=transcript:ZemaCp034;Parent=gene:ZemaCp034;biotype=protein_coding;transcript_id=ZemaCp034
+Pt	NCBI	exon	59666	60223	.	+	.	Parent=transcript:ZemaCp034;Name=ZemaCp034.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp034.exon1;rank=1
+Pt	NCBI	CDS	59666	60223	.	+	0	ID=CDS:ZemaCp034;Parent=transcript:ZemaCp034;protein_id=ZemaCp034
+###
+Pt	ensembl	gene	60553	61245	.	+	.	ID=gene:ZemaCp035;Name=cemA;biotype=protein_coding;description=cemA;gene_id=ZemaCp035;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	60553	61245	.	+	.	ID=transcript:ZemaCp035;Parent=gene:ZemaCp035;biotype=protein_coding;transcript_id=ZemaCp035
+Pt	NCBI	exon	60553	61245	.	+	.	Parent=transcript:ZemaCp035;Name=ZemaCp035.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp035.exon1;rank=1
+Pt	NCBI	CDS	60553	61245	.	+	0	ID=CDS:ZemaCp035;Parent=transcript:ZemaCp035;protein_id=ZemaCp035
+###
+Pt	ensembl	gene	61485	62447	.	+	.	ID=gene:ZemaCp036;Name=petA;biotype=protein_coding;description=petA;gene_id=ZemaCp036;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	61485	62447	.	+	.	ID=transcript:ZemaCp036;Parent=gene:ZemaCp036;biotype=protein_coding;transcript_id=ZemaCp036
+Pt	NCBI	exon	61485	62447	.	+	.	Parent=transcript:ZemaCp036;Name=ZemaCp036.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp036.exon1;rank=1
+Pt	NCBI	CDS	61485	62447	.	+	0	ID=CDS:ZemaCp036;Parent=transcript:ZemaCp036;protein_id=ZemaCp036
+###
+Pt	ensembl	gene	63347	63469	.	-	.	ID=gene:ZemaCp037;Name=psbJ;biotype=protein_coding;description=psbJ;gene_id=ZemaCp037;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	63347	63469	.	-	.	ID=transcript:ZemaCp037;Parent=gene:ZemaCp037;biotype=protein_coding;transcript_id=ZemaCp037
+Pt	NCBI	exon	63347	63469	.	-	.	Parent=transcript:ZemaCp037;Name=ZemaCp037.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp037.exon1;rank=1
+Pt	NCBI	CDS	63347	63469	.	-	0	ID=CDS:ZemaCp037;Parent=transcript:ZemaCp037;protein_id=ZemaCp037
+###
+Pt	ensembl	gene	63595	63711	.	-	.	ID=gene:ZemaCp038;Name=psbL;biotype=protein_coding;description=psbL;gene_id=ZemaCp038;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	63595	63711	.	-	.	ID=transcript:ZemaCp038;Parent=gene:ZemaCp038;biotype=protein_coding;transcript_id=ZemaCp038
+Pt	NCBI	exon	63595	63711	.	-	.	Parent=transcript:ZemaCp038;Name=ZemaCp038.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp038.exon1;rank=1
+Pt	NCBI	CDS	63595	63711	.	-	0	ID=CDS:ZemaCp038;Parent=transcript:ZemaCp038;protein_id=ZemaCp038
+###
+Pt	ensembl	gene	63734	63853	.	-	.	ID=gene:ZemaCp039;Name=psbF;biotype=protein_coding;description=psbF;gene_id=ZemaCp039;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	63734	63853	.	-	.	ID=transcript:ZemaCp039;Parent=gene:ZemaCp039;biotype=protein_coding;transcript_id=ZemaCp039
+Pt	NCBI	exon	63734	63853	.	-	.	Parent=transcript:ZemaCp039;Name=ZemaCp039.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp039.exon1;rank=1
+Pt	NCBI	CDS	63734	63853	.	-	0	ID=CDS:ZemaCp039;Parent=transcript:ZemaCp039;protein_id=ZemaCp039
+###
+Pt	ensembl	gene	63864	64115	.	-	.	ID=gene:ZemaCp040;Name=psbE;biotype=protein_coding;description=psbE;gene_id=ZemaCp040;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	63864	64115	.	-	.	ID=transcript:ZemaCp040;Parent=gene:ZemaCp040;biotype=protein_coding;transcript_id=ZemaCp040
+Pt	NCBI	exon	63864	64115	.	-	.	Parent=transcript:ZemaCp040;Name=ZemaCp040.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp040.exon1;rank=1
+Pt	NCBI	CDS	63864	64115	.	-	0	ID=CDS:ZemaCp040;Parent=transcript:ZemaCp040;protein_id=ZemaCp040
+###
+Pt	ensembl	gene	65352	65447	.	+	.	ID=gene:ZemaCp041;Name=petL;biotype=protein_coding;description=petL;gene_id=ZemaCp041;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	65352	65447	.	+	.	ID=transcript:ZemaCp041;Parent=gene:ZemaCp041;biotype=protein_coding;transcript_id=ZemaCp041
+Pt	NCBI	exon	65352	65447	.	+	.	Parent=transcript:ZemaCp041;Name=ZemaCp041.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp041.exon1;rank=1
+Pt	NCBI	CDS	65352	65447	.	+	0	ID=CDS:ZemaCp041;Parent=transcript:ZemaCp041;protein_id=ZemaCp041
+###
+Pt	ensembl	gene	65611	65724	.	+	.	ID=gene:ZemaCp042;Name=petG;biotype=protein_coding;description=petG;gene_id=ZemaCp042;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	65611	65724	.	+	.	ID=transcript:ZemaCp042;Parent=gene:ZemaCp042;biotype=protein_coding;transcript_id=ZemaCp042
+Pt	NCBI	exon	65611	65724	.	+	.	Parent=transcript:ZemaCp042;Name=ZemaCp042.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp042.exon1;rank=1
+Pt	NCBI	CDS	65611	65724	.	+	0	ID=CDS:ZemaCp042;Parent=transcript:ZemaCp042;protein_id=ZemaCp042
+###
+Pt	Ensembl_Plants	ncRNA_gene	65845	65918	.	-	.	ID=gene:ENSRNA049452030;Name=tRNA-Trp;biotype=tRNA;description=tRNA-Trp for anticodon CCA;gene_id=ENSRNA049452030;logic_name=trnascan_gene
+Pt	Ensembl_Plants	tRNA	65845	65918	.	-	.	ID=transcript:ENSRNA049452030-T1;Parent=gene:ENSRNA049452030;biotype=tRNA;transcript_id=ENSRNA049452030-T1
+Pt	Ensembl_Plants	exon	65845	65918	.	-	.	Parent=transcript:ENSRNA049452030-T1;Name=ENSRNA049452030-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSRNA049452030-E1;rank=1
+###
+Pt	ensembl	ncRNA_gene	65845	65918	.	-	.	ID=gene:ZemaCt141;biotype=tRNA;description=trnWtRNA-Trp;gene_id=ZemaCt141;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	65845	65918	.	-	.	ID=transcript:ZemaCt141;Parent=gene:ZemaCt141;biotype=tRNA;transcript_id=ZemaCt141
+Pt	NCBI	exon	65845	65918	.	-	.	Parent=transcript:ZemaCt141;Name=ZemaCt141.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt141.exon1;rank=1
+###
+Pt	ensembl	ncRNA_gene	66056	66129	.	-	.	ID=gene:ZemaCt142;biotype=tRNA;description=trnPtRNA-Pro;gene_id=ZemaCt142;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	66056	66129	.	-	.	ID=transcript:ZemaCt142;Parent=gene:ZemaCt142;biotype=tRNA;transcript_id=ZemaCt142
+Pt	NCBI	exon	66056	66129	.	-	.	Parent=transcript:ZemaCt142;Name=ZemaCt142.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt142.exon1;rank=1
+###
+Pt	ensembl	gene	66513	66641	.	+	.	ID=gene:ZemaCp043;Name=psaJ;biotype=protein_coding;description=psaJ;gene_id=ZemaCp043;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	66513	66641	.	+	.	ID=transcript:ZemaCp043;Parent=gene:ZemaCp043;biotype=protein_coding;transcript_id=ZemaCp043
+Pt	NCBI	exon	66513	66641	.	+	.	Parent=transcript:ZemaCp043;Name=ZemaCp043.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp043.exon1;rank=1
+Pt	NCBI	CDS	66513	66641	.	+	0	ID=CDS:ZemaCp043;Parent=transcript:ZemaCp043;protein_id=ZemaCp043
+###
+Pt	ensembl	gene	66998	67198	.	+	.	ID=gene:ZemaCp044;Name=rpl33;biotype=protein_coding;description=rpl33;gene_id=ZemaCp044;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	66998	67198	.	+	.	ID=transcript:ZemaCp044;Parent=gene:ZemaCp044;biotype=protein_coding;transcript_id=ZemaCp044
+Pt	NCBI	exon	66998	67198	.	+	.	Parent=transcript:ZemaCp044;Name=ZemaCp044.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp044.exon1;rank=1
+Pt	NCBI	CDS	66998	67198	.	+	0	ID=CDS:ZemaCp044;Parent=transcript:ZemaCp044;protein_id=ZemaCp044
+###
+Pt	ensembl	gene	67532	68044	.	+	.	ID=gene:ZemaCp045;Name=rps18;biotype=protein_coding;description=rps18;gene_id=ZemaCp045;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	67532	68044	.	+	.	ID=transcript:ZemaCp045;Parent=gene:ZemaCp045;biotype=protein_coding;transcript_id=ZemaCp045
+Pt	NCBI	exon	67532	68044	.	+	.	Parent=transcript:ZemaCp045;Name=ZemaCp045.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp045.exon1;rank=1
+Pt	NCBI	CDS	67532	68044	.	+	0	ID=CDS:ZemaCp045;Parent=transcript:ZemaCp045;protein_id=ZemaCp045
+###
+Pt	ensembl	gene	68268	68627	.	-	.	ID=gene:ZemaCp046;Name=rpl20;biotype=protein_coding;description=rpl20;gene_id=ZemaCp046;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	68268	68627	.	-	.	ID=transcript:ZemaCp046;Parent=gene:ZemaCp046;biotype=protein_coding;transcript_id=ZemaCp046
+Pt	NCBI	exon	68268	68627	.	-	.	Parent=transcript:ZemaCp046;Name=ZemaCp046.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp046.exon1;rank=1
+Pt	NCBI	CDS	68268	68627	.	-	0	ID=CDS:ZemaCp046;Parent=transcript:ZemaCp046;protein_id=ZemaCp046
+###
+Pt	ensembl	gene	69554	70204	.	-	.	ID=gene:ZemaCp047;Name=clpP;biotype=protein_coding;description=clpP;gene_id=ZemaCp047;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	69554	70204	.	-	.	ID=transcript:ZemaCp047;Parent=gene:ZemaCp047;biotype=protein_coding;transcript_id=ZemaCp047
+Pt	NCBI	exon	69554	70204	.	-	.	Parent=transcript:ZemaCp047;Name=ZemaCp047.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp047.exon1;rank=1
+Pt	NCBI	CDS	69554	70204	.	-	0	ID=CDS:ZemaCp047;Parent=transcript:ZemaCp047;protein_id=ZemaCp047
+###
+Pt	ensembl	gene	70706	72232	.	+	.	ID=gene:ZemaCp048;Name=psbB;biotype=protein_coding;description=psbB;gene_id=ZemaCp048;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	70706	72232	.	+	.	ID=transcript:ZemaCp048;Parent=gene:ZemaCp048;biotype=protein_coding;transcript_id=ZemaCp048
+Pt	NCBI	exon	70706	72232	.	+	.	Parent=transcript:ZemaCp048;Name=ZemaCp048.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp048.exon1;rank=1
+Pt	NCBI	CDS	70706	72232	.	+	0	ID=CDS:ZemaCp048;Parent=transcript:ZemaCp048;protein_id=ZemaCp048
+###
+Pt	ensembl	gene	72401	72502	.	+	.	ID=gene:ZemaCp049;Name=psbT;biotype=protein_coding;description=psbT;gene_id=ZemaCp049;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	72401	72502	.	+	.	ID=transcript:ZemaCp049;Parent=gene:ZemaCp049;biotype=protein_coding;transcript_id=ZemaCp049
+Pt	NCBI	exon	72401	72502	.	+	.	Parent=transcript:ZemaCp049;Name=ZemaCp049.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp049.exon1;rank=1
+Pt	NCBI	CDS	72401	72502	.	+	0	ID=CDS:ZemaCp049;Parent=transcript:ZemaCp049;protein_id=ZemaCp049
+###
+Pt	ensembl	gene	72555	72686	.	-	.	ID=gene:ZemaCp050;Name=psbN;biotype=protein_coding;description=psbN;gene_id=ZemaCp050;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	72555	72686	.	-	.	ID=transcript:ZemaCp050;Parent=gene:ZemaCp050;biotype=protein_coding;transcript_id=ZemaCp050
+Pt	NCBI	exon	72555	72686	.	-	.	Parent=transcript:ZemaCp050;Name=ZemaCp050.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp050.exon1;rank=1
+Pt	NCBI	CDS	72555	72686	.	-	0	ID=CDS:ZemaCp050;Parent=transcript:ZemaCp050;protein_id=ZemaCp050
+###
+Pt	ensembl	gene	72790	73011	.	+	.	ID=gene:ZemaCp051;Name=psbH;biotype=protein_coding;description=psbH;gene_id=ZemaCp051;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	72790	73011	.	+	.	ID=transcript:ZemaCp051;Parent=gene:ZemaCp051;biotype=protein_coding;transcript_id=ZemaCp051
+Pt	NCBI	exon	72790	73011	.	+	.	Parent=transcript:ZemaCp051;Name=ZemaCp051.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp051.exon1;rank=1
+Pt	NCBI	CDS	72790	73011	.	+	0	ID=CDS:ZemaCp051;Parent=transcript:ZemaCp051;protein_id=ZemaCp051
+###
+Pt	ensembl	gene	73141	74543	.	+	.	ID=gene:ZemaCp052;biotype=protein_coding;description=petB;gene_id=ZemaCp052;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	73141	74543	.	+	.	ID=transcript:ZemaCp052;Parent=gene:ZemaCp052;biotype=protein_coding;transcript_id=ZemaCp052
+Pt	NCBI	exon	73141	73146	.	+	.	Parent=transcript:ZemaCp052;Name=ZemaCp052.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp052.exon1;rank=1
+Pt	NCBI	CDS	73141	73146	.	+	0	ID=CDS:ZemaCp052;Parent=transcript:ZemaCp052;protein_id=ZemaCp052
+Pt	NCBI	exon	73845	74543	.	+	.	Parent=transcript:ZemaCp052;Name=ZemaCp052.exon2;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp052.exon2;rank=2
+Pt	NCBI	CDS	73845	74543	.	+	0	ID=CDS:ZemaCp052;Parent=transcript:ZemaCp052;protein_id=ZemaCp052
+###
+Pt	ensembl	gene	74726	75952	.	+	.	ID=gene:ZemaCp053;Name=petD;biotype=protein_coding;description=petD;gene_id=ZemaCp053;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	74726	75952	.	+	.	ID=transcript:ZemaCp053;Parent=gene:ZemaCp053;biotype=protein_coding;transcript_id=ZemaCp053
+Pt	NCBI	exon	74726	74733	.	+	.	Parent=transcript:ZemaCp053;Name=ZemaCp053.exon1;constitutive=1;ensembl_end_phase=2;ensembl_phase=0;exon_id=ZemaCp053.exon1;rank=1
+Pt	NCBI	CDS	74726	74733	.	+	0	ID=CDS:ZemaCp053;Parent=transcript:ZemaCp053;protein_id=ZemaCp053
+Pt	NCBI	exon	75478	75952	.	+	.	Parent=transcript:ZemaCp053;Name=ZemaCp053.exon2;constitutive=1;ensembl_end_phase=0;ensembl_phase=2;exon_id=ZemaCp053.exon2;rank=2
+Pt	NCBI	CDS	75478	75952	.	+	1	ID=CDS:ZemaCp053;Parent=transcript:ZemaCp053;protein_id=ZemaCp053
+###
+Pt	ensembl	gene	76170	77189	.	-	.	ID=gene:ZemaCp054;Name=rpoA;biotype=protein_coding;description=rpoA;gene_id=ZemaCp054;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	76170	77189	.	-	.	ID=transcript:ZemaCp054;Parent=gene:ZemaCp054;biotype=protein_coding;transcript_id=ZemaCp054
+Pt	NCBI	exon	76170	77189	.	-	.	Parent=transcript:ZemaCp054;Name=ZemaCp054.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp054.exon1;rank=1
+Pt	NCBI	CDS	76170	77189	.	-	0	ID=CDS:ZemaCp054;Parent=transcript:ZemaCp054;protein_id=ZemaCp054
+###
+Pt	ensembl	gene	77252	77683	.	-	.	ID=gene:ZemaCp055;Name=rps11;biotype=protein_coding;description=rps11;gene_id=ZemaCp055;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	77252	77683	.	-	.	ID=transcript:ZemaCp055;Parent=gene:ZemaCp055;biotype=protein_coding;transcript_id=ZemaCp055
+Pt	NCBI	exon	77252	77683	.	-	.	Parent=transcript:ZemaCp055;Name=ZemaCp055.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp055.exon1;rank=1
+Pt	NCBI	CDS	77252	77683	.	-	0	ID=CDS:ZemaCp055;Parent=transcript:ZemaCp055;protein_id=ZemaCp055
+###
+Pt	ensembl	gene	77871	77984	.	-	.	ID=gene:ZemaCp056;Name=rpl36;biotype=protein_coding;description=rpl36;gene_id=ZemaCp056;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	77871	77984	.	-	.	ID=transcript:ZemaCp056;Parent=gene:ZemaCp056;biotype=protein_coding;transcript_id=ZemaCp056
+Pt	NCBI	exon	77871	77984	.	-	.	Parent=transcript:ZemaCp056;Name=ZemaCp056.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp056.exon1;rank=1
+Pt	NCBI	CDS	77871	77984	.	-	0	ID=CDS:ZemaCp056;Parent=transcript:ZemaCp056;protein_id=ZemaCp056
+###
+Pt	ensembl	gene	78085	78408	.	-	.	ID=gene:ZemaCp057;Name=infA;biotype=protein_coding;description=infA;gene_id=ZemaCp057;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	78085	78408	.	-	.	ID=transcript:ZemaCp057;Parent=gene:ZemaCp057;biotype=protein_coding;transcript_id=ZemaCp057
+Pt	NCBI	exon	78085	78408	.	-	.	Parent=transcript:ZemaCp057;Name=ZemaCp057.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp057.exon1;rank=1
+Pt	NCBI	CDS	78085	78408	.	-	0	ID=CDS:ZemaCp057;Parent=transcript:ZemaCp057;protein_id=ZemaCp057
+###
+Pt	ensembl	gene	78488	78898	.	-	.	ID=gene:ZemaCp058;Name=rps8;biotype=protein_coding;description=rps8;gene_id=ZemaCp058;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	78488	78898	.	-	.	ID=transcript:ZemaCp058;Parent=gene:ZemaCp058;biotype=protein_coding;transcript_id=ZemaCp058
+Pt	NCBI	exon	78488	78898	.	-	.	Parent=transcript:ZemaCp058;Name=ZemaCp058.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp058.exon1;rank=1
+Pt	NCBI	CDS	78488	78898	.	-	0	ID=CDS:ZemaCp058;Parent=transcript:ZemaCp058;protein_id=ZemaCp058
+###
+Pt	ensembl	gene	79038	79409	.	-	.	ID=gene:ZemaCp059;Name=rpl14;biotype=protein_coding;description=rpl14;gene_id=ZemaCp059;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	79038	79409	.	-	.	ID=transcript:ZemaCp059;Parent=gene:ZemaCp059;biotype=protein_coding;transcript_id=ZemaCp059
+Pt	NCBI	exon	79038	79409	.	-	.	Parent=transcript:ZemaCp059;Name=ZemaCp059.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp059.exon1;rank=1
+Pt	NCBI	CDS	79038	79409	.	-	0	ID=CDS:ZemaCp059;Parent=transcript:ZemaCp059;protein_id=ZemaCp059
+###
+Pt	ensembl	gene	79519	80971	.	-	.	ID=gene:ZemaCp060;Name=rpl16;biotype=protein_coding;description=rpl16;gene_id=ZemaCp060;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	79519	80971	.	-	.	ID=transcript:ZemaCp060;Parent=gene:ZemaCp060;biotype=protein_coding;transcript_id=ZemaCp060
+Pt	NCBI	exon	79519	79920	.	-	.	Parent=transcript:ZemaCp060;Name=ZemaCp060.exon2;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp060.exon2;rank=2
+Pt	NCBI	CDS	79519	79920	.	-	0	ID=CDS:ZemaCp060;Parent=transcript:ZemaCp060;protein_id=ZemaCp060
+Pt	NCBI	exon	80963	80971	.	-	.	Parent=transcript:ZemaCp060;Name=ZemaCp060.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp060.exon1;rank=1
+Pt	NCBI	CDS	80963	80971	.	-	0	ID=CDS:ZemaCp060;Parent=transcript:ZemaCp060;protein_id=ZemaCp060
+###
+Pt	Ensembl_Plants	ncRNA_gene	79921	79997	.	-	.	ID=gene:ENSRNA049479725;Name=Intron_gpII;biotype=sense_intronic;description=Group II catalytic intron;gene_id=ENSRNA049479725;logic_name=rfam_12.2_gene
+Pt	Ensembl_Plants	lnc_RNA	79921	79997	.	-	.	ID=transcript:ENSRNA049479725-T1;Parent=gene:ENSRNA049479725;biotype=sense_intronic;transcript_id=ENSRNA049479725-T1
+Pt	Ensembl_Plants	exon	79921	79997	.	-	.	Parent=transcript:ENSRNA049479725-T1;Name=ENSRNA049479725-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSRNA049479725-E1;rank=1
+###
+Pt	ensembl	gene	81113	81787	.	-	.	ID=gene:ZemaCp061;Name=rps3;biotype=protein_coding;description=rps3;gene_id=ZemaCp061;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	81113	81787	.	-	.	ID=transcript:ZemaCp061;Parent=gene:ZemaCp061;biotype=protein_coding;transcript_id=ZemaCp061
+Pt	NCBI	exon	81113	81787	.	-	.	Parent=transcript:ZemaCp061;Name=ZemaCp061.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp061.exon1;rank=1
+Pt	NCBI	CDS	81113	81787	.	-	0	ID=CDS:ZemaCp061;Parent=transcript:ZemaCp061;protein_id=ZemaCp061
+###
+Pt	ensembl	gene	81849	82295	.	-	.	ID=gene:ZemaCp062;Name=rpl22;biotype=protein_coding;description=rpl22;gene_id=ZemaCp062;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	81849	82295	.	-	.	ID=transcript:ZemaCp062;Parent=gene:ZemaCp062;biotype=protein_coding;transcript_id=ZemaCp062
+Pt	NCBI	exon	81849	82295	.	-	.	Parent=transcript:ZemaCp062;Name=ZemaCp062.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp062.exon1;rank=1
+Pt	NCBI	CDS	81849	82295	.	-	0	ID=CDS:ZemaCp062;Parent=transcript:ZemaCp062;protein_id=ZemaCp062
+###
+Pt	ensembl	gene	82388	82669	.	-	.	ID=gene:ZemaCp063;biotype=protein_coding;description=rps19;gene_id=ZemaCp063;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	82388	82669	.	-	.	ID=transcript:ZemaCp063;Parent=gene:ZemaCp063;biotype=protein_coding;transcript_id=ZemaCp063
+Pt	NCBI	exon	82388	82669	.	-	.	Parent=transcript:ZemaCp063;Name=ZemaCp063.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp063.exon1;rank=1
+Pt	NCBI	CDS	82388	82669	.	-	0	ID=CDS:ZemaCp063;Parent=transcript:ZemaCp063;protein_id=ZemaCp063
+###
+Pt	ensembl	gene	82689	82913	.	-	.	ID=gene:ZemaCp064;biotype=protein_coding;description=ZemaCp064;gene_id=ZemaCp064;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	82689	82913	.	-	.	ID=transcript:ZemaCp064;Parent=gene:ZemaCp064;biotype=protein_coding;transcript_id=ZemaCp064
+Pt	NCBI	exon	82689	82913	.	-	.	Parent=transcript:ZemaCp064;Name=ZemaCp064.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp064.exon1;rank=1
+Pt	NCBI	CDS	82689	82913	.	-	0	ID=CDS:ZemaCp064;Parent=transcript:ZemaCp064;protein_id=ZemaCp064
+###
+Pt	ensembl	ncRNA_gene	82800	82874	.	+	.	ID=gene:ZemaCt143;biotype=tRNA;description=trnHtRNA-His;gene_id=ZemaCt143;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	82800	82874	.	+	.	ID=transcript:ZemaCt143;Parent=gene:ZemaCt143;biotype=tRNA;transcript_id=ZemaCt143
+Pt	NCBI	exon	82800	82874	.	+	.	Parent=transcript:ZemaCt143;Name=ZemaCt143.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt143.exon1;rank=1
+###
+Pt	ensembl	gene	82930	84414	.	-	.	ID=gene:ZemaCp065;biotype=protein_coding;description=rpl2;gene_id=ZemaCp065;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	82930	84414	.	-	.	ID=transcript:ZemaCp065;Parent=gene:ZemaCp065;biotype=protein_coding;transcript_id=ZemaCp065
+Pt	NCBI	exon	82930	83361	.	-	.	Parent=transcript:ZemaCp065;Name=ZemaCp065.exon2;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp065.exon2;rank=2
+Pt	NCBI	CDS	82930	83361	.	-	0	ID=CDS:ZemaCp065;Parent=transcript:ZemaCp065;protein_id=ZemaCp065
+Pt	NCBI	exon	84025	84414	.	-	.	Parent=transcript:ZemaCp065;Name=ZemaCp065.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp065.exon1;rank=1
+Pt	NCBI	CDS	84025	84414	.	-	0	ID=CDS:ZemaCp065;Parent=transcript:ZemaCp065;protein_id=ZemaCp065
+###
+Pt	ensembl	gene	83036	83449	.	+	.	ID=gene:ZemaCp066;Name=ycf72-1;biotype=protein_coding;description=ZemaCp066;gene_id=ZemaCp066;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	83036	83449	.	+	.	ID=transcript:ZemaCp066;Parent=gene:ZemaCp066;biotype=protein_coding;transcript_id=ZemaCp066
+Pt	NCBI	exon	83036	83449	.	+	.	Parent=transcript:ZemaCp066;Name=ZemaCp066.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp066.exon1;rank=1
+Pt	NCBI	CDS	83036	83449	.	+	0	ID=CDS:ZemaCp066;Parent=transcript:ZemaCp066;protein_id=ZemaCp066
+###
+Pt	Ensembl_Plants	ncRNA_gene	83360	83436	.	-	.	ID=gene:ENSRNA049479761;Name=Intron_gpII;biotype=sense_intronic;description=Group II catalytic intron;gene_id=ENSRNA049479761;logic_name=rfam_12.2_gene
+Pt	Ensembl_Plants	lnc_RNA	83360	83436	.	-	.	ID=transcript:ENSRNA049479761-T1;Parent=gene:ENSRNA049479761;biotype=sense_intronic;transcript_id=ENSRNA049479761-T1
+Pt	Ensembl_Plants	exon	83360	83436	.	-	.	Parent=transcript:ENSRNA049479761-T1;Name=ENSRNA049479761-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSRNA049479761-E1;rank=1
+###
+Pt	ensembl	gene	84433	84714	.	-	.	ID=gene:ZemaCp067;Name=rpl23-A;biotype=protein_coding;description=rpl23;gene_id=ZemaCp067;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	84433	84714	.	-	.	ID=transcript:ZemaCp067;Parent=gene:ZemaCp067;biotype=protein_coding;transcript_id=ZemaCp067
+Pt	NCBI	exon	84433	84714	.	-	.	Parent=transcript:ZemaCp067;Name=ZemaCp067.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp067.exon1;rank=1
+Pt	NCBI	CDS	84433	84714	.	-	0	ID=CDS:ZemaCp067;Parent=transcript:ZemaCp067;protein_id=ZemaCp067
+###
+Pt	ensembl	ncRNA_gene	84881	84954	.	-	.	ID=gene:ZemaCt144;biotype=tRNA;description=trnItRNA-Ile;gene_id=ZemaCt144;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	84881	84954	.	-	.	ID=transcript:ZemaCt144;Parent=gene:ZemaCt144;biotype=tRNA;transcript_id=ZemaCt144
+Pt	NCBI	exon	84881	84954	.	-	.	Parent=transcript:ZemaCt144;Name=ZemaCt144.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt144.exon1;rank=1
+###
+Pt	ensembl	gene	85019	85159	.	+	.	ID=gene:ZemaCp068;biotype=protein_coding;description=ZemaCp068;gene_id=ZemaCp068;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	85019	85159	.	+	.	ID=transcript:ZemaCp068;Parent=gene:ZemaCp068;biotype=protein_coding;transcript_id=ZemaCp068
+Pt	NCBI	exon	85019	85159	.	+	.	Parent=transcript:ZemaCp068;Name=ZemaCp068.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp068.exon1;rank=1
+Pt	NCBI	CDS	85019	85159	.	+	0	ID=CDS:ZemaCp068;Parent=transcript:ZemaCp068;protein_id=ZemaCp068
+###
+Pt	ensembl	gene	85141	85245	.	+	.	ID=gene:ZemaCp069;biotype=protein_coding;description=ZemaCp069;gene_id=ZemaCp069;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	85141	85245	.	+	.	ID=transcript:ZemaCp069;Parent=gene:ZemaCp069;biotype=protein_coding;transcript_id=ZemaCp069
+Pt	NCBI	exon	85141	85245	.	+	.	Parent=transcript:ZemaCp069;Name=ZemaCp069.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp069.exon1;rank=1
+Pt	NCBI	CDS	85141	85245	.	+	0	ID=CDS:ZemaCp069;Parent=transcript:ZemaCp069;protein_id=ZemaCp069
+###
+Pt	ensembl	gene	85276	86001	.	+	.	ID=gene:ZemaCp070;biotype=protein_coding;description=ZemaCp070;gene_id=ZemaCp070;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	85276	86001	.	+	.	ID=transcript:ZemaCp070;Parent=gene:ZemaCp070;biotype=protein_coding;transcript_id=ZemaCp070
+Pt	NCBI	exon	85276	86001	.	+	.	Parent=transcript:ZemaCp070;Name=ZemaCp070.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp070.exon1;rank=1
+Pt	NCBI	CDS	85276	86001	.	+	0	ID=CDS:ZemaCp070;Parent=transcript:ZemaCp070;protein_id=ZemaCp070
+###
+Pt	ensembl	gene	86288	86707	.	+	.	ID=gene:ZemaCp071;biotype=protein_coding;description=ZemaCp071;gene_id=ZemaCp071;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	86288	86707	.	+	.	ID=transcript:ZemaCp071;Parent=gene:ZemaCp071;biotype=protein_coding;transcript_id=ZemaCp071
+Pt	NCBI	exon	86288	86707	.	+	.	Parent=transcript:ZemaCp071;Name=ZemaCp071.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp071.exon1;rank=1
+Pt	NCBI	CDS	86288	86707	.	+	0	ID=CDS:ZemaCp071;Parent=transcript:ZemaCp071;protein_id=ZemaCp071
+###
+Pt	ensembl	gene	86718	86834	.	+	.	ID=gene:ZemaCp072;biotype=protein_coding;description=ZemaCp072;gene_id=ZemaCp072;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	86718	86834	.	+	.	ID=transcript:ZemaCp072;Parent=gene:ZemaCp072;biotype=protein_coding;transcript_id=ZemaCp072
+Pt	NCBI	exon	86718	86834	.	+	.	Parent=transcript:ZemaCp072;Name=ZemaCp072.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp072.exon1;rank=1
+Pt	NCBI	CDS	86718	86834	.	+	0	ID=CDS:ZemaCp072;Parent=transcript:ZemaCp072;protein_id=ZemaCp072
+###
+Pt	ensembl	gene	87515	87814	.	+	.	ID=gene:ZemaCp073;Name=ycf15-A;biotype=protein_coding;description=ZemaCp073;gene_id=ZemaCp073;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	87515	87814	.	+	.	ID=transcript:ZemaCp073;Parent=gene:ZemaCp073;biotype=protein_coding;transcript_id=ZemaCp073
+Pt	NCBI	exon	87515	87814	.	+	.	Parent=transcript:ZemaCp073;Name=ZemaCp073.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp073.exon1;rank=1
+Pt	NCBI	CDS	87515	87814	.	+	0	ID=CDS:ZemaCp073;Parent=transcript:ZemaCp073;protein_id=ZemaCp073
+###
+Pt	ensembl	gene	87875	88396	.	+	.	ID=gene:ZemaCp074;Name=ycf73-A;biotype=protein_coding;description=ZemaCp074;gene_id=ZemaCp074;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	87875	88396	.	+	.	ID=transcript:ZemaCp074;Parent=gene:ZemaCp074;biotype=protein_coding;transcript_id=ZemaCp074
+Pt	NCBI	exon	87875	88396	.	+	.	Parent=transcript:ZemaCp074;Name=ZemaCp074.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp074.exon1;rank=1
+Pt	NCBI	CDS	87875	88396	.	+	0	ID=CDS:ZemaCp074;Parent=transcript:ZemaCp074;protein_id=ZemaCp074
+###
+Pt	ensembl	ncRNA_gene	88584	88664	.	-	.	ID=gene:ZemaCt145;biotype=tRNA;description=trnLtRNA-Leu;gene_id=ZemaCt145;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	88584	88664	.	-	.	ID=transcript:ZemaCt145;Parent=gene:ZemaCt145;biotype=tRNA;transcript_id=ZemaCt145
+Pt	NCBI	exon	88584	88664	.	-	.	Parent=transcript:ZemaCt145;Name=ZemaCt145.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt145.exon1;rank=1
+###
+Pt	ensembl	gene	89236	91472	.	-	.	ID=gene:ZemaCp075;biotype=protein_coding;description=ndhB;gene_id=ZemaCp075;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	89236	91472	.	-	.	ID=transcript:ZemaCp075;Parent=gene:ZemaCp075;biotype=protein_coding;transcript_id=ZemaCp075
+Pt	NCBI	exon	89236	89991	.	-	.	Parent=transcript:ZemaCp075;Name=ZemaCp075.exon2;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp075.exon2;rank=2
+Pt	NCBI	CDS	89236	89991	.	-	0	ID=CDS:ZemaCp075;Parent=transcript:ZemaCp075;protein_id=ZemaCp075
+Pt	NCBI	exon	90696	91472	.	-	.	Parent=transcript:ZemaCp075;Name=ZemaCp075.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp075.exon1;rank=1
+Pt	NCBI	CDS	90696	91472	.	-	0	ID=CDS:ZemaCp075;Parent=transcript:ZemaCp075;protein_id=ZemaCp075
+###
+Pt	Ensembl_Plants	ncRNA_gene	89992	90070	.	-	.	ID=gene:ENSRNA049479745;Name=Intron_gpII;biotype=sense_intronic;description=Group II catalytic intron;gene_id=ENSRNA049479745;logic_name=rfam_12.2_gene
+Pt	Ensembl_Plants	lnc_RNA	89992	90070	.	-	.	ID=transcript:ENSRNA049479745-T1;Parent=gene:ENSRNA049479745;biotype=sense_intronic;transcript_id=ENSRNA049479745-T1
+Pt	Ensembl_Plants	exon	89992	90070	.	-	.	Parent=transcript:ENSRNA049479745-T1;Name=ENSRNA049479745-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSRNA049479745-E1;rank=1
+###
+Pt	ensembl	gene	91772	92242	.	-	.	ID=gene:ZemaCp076;Name=rps7-A;biotype=protein_coding;description=rps7;gene_id=ZemaCp076;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	91772	92242	.	-	.	ID=transcript:ZemaCp076;Parent=gene:ZemaCp076;biotype=protein_coding;transcript_id=ZemaCp076
+Pt	NCBI	exon	91772	92242	.	-	.	Parent=transcript:ZemaCp076;Name=ZemaCp076.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp076.exon1;rank=1
+Pt	NCBI	CDS	91772	92242	.	-	0	ID=CDS:ZemaCp076;Parent=transcript:ZemaCp076;protein_id=ZemaCp076
+###
+Pt	Ensembl_Plants	ncRNA_gene	92330	92403	.	-	.	ID=gene:ENSRNA049479684;Name=Intron_gpII;biotype=sense_intronic;description=Group II catalytic intron;gene_id=ENSRNA049479684;logic_name=rfam_12.2_gene
+Pt	Ensembl_Plants	lnc_RNA	92330	92403	.	-	.	ID=transcript:ENSRNA049479684-T1;Parent=gene:ENSRNA049479684;biotype=sense_intronic;transcript_id=ENSRNA049479684-T1
+Pt	Ensembl_Plants	exon	92330	92403	.	-	.	Parent=transcript:ENSRNA049479684-T1;Name=ENSRNA049479684-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSRNA049479684-E1;rank=1
+###
+Pt	Ensembl_Plants	ncRNA_gene	93102	93178	.	-	.	ID=gene:ENSRNA049479709;Name=Intron_gpII;biotype=sense_intronic;description=Group II catalytic intron;gene_id=ENSRNA049479709;logic_name=rfam_12.2_gene
+Pt	Ensembl_Plants	lnc_RNA	93102	93178	.	-	.	ID=transcript:ENSRNA049479709-T1;Parent=gene:ENSRNA049479709;biotype=sense_intronic;transcript_id=ENSRNA049479709-T1
+Pt	Ensembl_Plants	exon	93102	93178	.	-	.	Parent=transcript:ENSRNA049479709-T1;Name=ENSRNA049479709-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSRNA049479709-E1;rank=1
+###
+Pt	ensembl	gene	94364	94621	.	-	.	ID=gene:ZemaCp077;Name=ycf76-B;biotype=protein_coding;description=ZemaCp077;gene_id=ZemaCp077;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	94364	94621	.	-	.	ID=transcript:ZemaCp077;Parent=gene:ZemaCp077;biotype=protein_coding;transcript_id=ZemaCp077
+Pt	NCBI	exon	94364	94621	.	-	.	Parent=transcript:ZemaCp077;Name=ZemaCp077.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp077.exon1;rank=1
+Pt	NCBI	CDS	94364	94621	.	-	0	ID=CDS:ZemaCp077;Parent=transcript:ZemaCp077;protein_id=ZemaCp077
+###
+Pt	ensembl	ncRNA_gene	94859	94930	.	+	.	ID=gene:ZemaCt146;biotype=tRNA;description=trnVtRNA-Val;gene_id=ZemaCt146;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	94859	94930	.	+	.	ID=transcript:ZemaCt146;Parent=gene:ZemaCt146;biotype=tRNA;transcript_id=ZemaCt146
+Pt	NCBI	exon	94859	94930	.	+	.	Parent=transcript:ZemaCt146;Name=ZemaCt146.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt146.exon1;rank=1
+###
+Pt	ensembl	ncRNA_gene	95161	96651	.	+	.	ID=gene:ZemaCr113;biotype=rRNA;description=ZemaCr11316S ribosomal RNA;gene_id=ZemaCr113;logic_name=organellar_genes_ncbi
+Pt	NCBI	rRNA	95161	96651	.	+	.	ID=transcript:ZemaCr113;Parent=gene:ZemaCr113;biotype=rRNA;transcript_id=ZemaCr113
+Pt	NCBI	exon	95161	96651	.	+	.	Parent=transcript:ZemaCr113;Name=ZemaCr113.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCr113.exon1;rank=1
+###
+Pt	ensembl	ncRNA_gene	96953	97973	.	+	.	ID=gene:ZemaCp078;biotype=tRNA;description=trnItRNA-Ile;gene_id=ZemaCp078;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	96953	97973	.	+	.	ID=transcript:ZemaCp078;Parent=gene:ZemaCp078;biotype=tRNA;transcript_id=ZemaCp078
+Pt	NCBI	exon	96953	96989	.	+	.	Parent=transcript:ZemaCp078;Name=ZemaCp078.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCp078.exon1;rank=1
+Pt	NCBI	exon	97939	97973	.	+	.	Parent=transcript:ZemaCp078;Name=ZemaCp078.exon2;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCp078.exon2;rank=2
+###
+Pt	ensembl	gene	97093	97497	.	+	.	ID=gene:ZemaCp156;Name=ycf68;biotype=protein_coding;description=ZemaCp156;gene_id=ZemaCp156;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	97093	97497	.	+	.	ID=transcript:ZemaCp156;Parent=gene:ZemaCp156;biotype=protein_coding;transcript_id=ZemaCp156
+Pt	NCBI	exon	97093	97497	.	+	.	Parent=transcript:ZemaCp156;Name=ZemaCp156.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp156.exon1;rank=1
+Pt	NCBI	CDS	97093	97497	.	+	0	ID=CDS:ZemaCp156;Parent=transcript:ZemaCp156;protein_id=ZemaCp156
+###
+Pt	Ensembl_Plants	ncRNA_gene	97820	97938	.	+	.	ID=gene:ENSRNA049479731;Name=Intron_gpII;biotype=sense_intronic;description=Group II catalytic intron;gene_id=ENSRNA049479731;logic_name=rfam_12.2_gene
+Pt	Ensembl_Plants	lnc_RNA	97820	97938	.	+	.	ID=transcript:ENSRNA049479731-T1;Parent=gene:ENSRNA049479731;biotype=sense_intronic;transcript_id=ENSRNA049479731-T1
+Pt	Ensembl_Plants	exon	97820	97938	.	+	.	Parent=transcript:ENSRNA049479731-T1;Name=ENSRNA049479731-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSRNA049479731-E1;rank=1
+###
+Pt	ensembl	ncRNA_gene	98038	98916	.	+	.	ID=gene:ZemaCp079;biotype=tRNA;description=trnAtRNA-Ala;gene_id=ZemaCp079;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	98038	98916	.	+	.	ID=transcript:ZemaCp079;Parent=gene:ZemaCp079;biotype=tRNA;transcript_id=ZemaCp079
+Pt	NCBI	exon	98038	98075	.	+	.	Parent=transcript:ZemaCp079;Name=ZemaCp079.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCp079.exon1;rank=1
+Pt	NCBI	exon	98882	98916	.	+	.	Parent=transcript:ZemaCp079;Name=ZemaCp079.exon2;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCp079.exon2;rank=2
+###
+Pt	ensembl	gene	98712	98861	.	+	.	ID=gene:ZemaCp157;biotype=protein_coding;description=ZemaCp157;gene_id=ZemaCp157;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	98712	98861	.	+	.	ID=transcript:ZemaCp157;Parent=gene:ZemaCp157;biotype=protein_coding;transcript_id=ZemaCp157
+Pt	NCBI	exon	98712	98861	.	+	.	Parent=transcript:ZemaCp157;Name=ZemaCp157.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp157.exon1;rank=1
+Pt	NCBI	CDS	98712	98861	.	+	0	ID=CDS:ZemaCp157;Parent=transcript:ZemaCp157;protein_id=ZemaCp157
+###
+Pt	Ensembl_Plants	ncRNA_gene	98768	98881	.	+	.	ID=gene:ENSRNA049479663;Name=Intron_gpII;biotype=sense_intronic;description=Group II catalytic intron;gene_id=ENSRNA049479663;logic_name=rfam_12.2_gene
+Pt	Ensembl_Plants	lnc_RNA	98768	98881	.	+	.	ID=transcript:ENSRNA049479663-T1;Parent=gene:ENSRNA049479663;biotype=sense_intronic;transcript_id=ENSRNA049479663-T1
+Pt	Ensembl_Plants	exon	98768	98881	.	+	.	Parent=transcript:ENSRNA049479663-T1;Name=ENSRNA049479663-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSRNA049479663-E1;rank=1
+###
+Pt	ensembl	ncRNA_gene	99062	101945	.	+	.	ID=gene:ZemaCr114;biotype=rRNA;description=ZemaCr11423S ribosomal RNA;gene_id=ZemaCr114;logic_name=organellar_genes_ncbi
+Pt	NCBI	rRNA	99062	101945	.	+	.	ID=transcript:ZemaCr114;Parent=gene:ZemaCr114;biotype=rRNA;transcript_id=ZemaCr114
+Pt	NCBI	exon	99062	101945	.	+	.	Parent=transcript:ZemaCr114;Name=ZemaCr114.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCr114.exon1;rank=1
+###
+Pt	ensembl	ncRNA_gene	102041	102135	.	+	.	ID=gene:ZemaCr115;biotype=rRNA;description=ZemaCr1154.5S ribosomal RNA;gene_id=ZemaCr115;logic_name=organellar_genes_ncbi
+Pt	NCBI	rRNA	102041	102135	.	+	.	ID=transcript:ZemaCr115;Parent=gene:ZemaCr115;biotype=rRNA;transcript_id=ZemaCr115
+Pt	NCBI	exon	102041	102135	.	+	.	Parent=transcript:ZemaCr115;Name=ZemaCr115.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCr115.exon1;rank=1
+###
+Pt	ensembl	ncRNA_gene	102366	102486	.	+	.	ID=gene:ZemaCr116;biotype=rRNA;description=ZemaCr1165S ribosomal RNA;gene_id=ZemaCr116;logic_name=organellar_genes_ncbi
+Pt	NCBI	rRNA	102366	102486	.	+	.	ID=transcript:ZemaCr116;Parent=gene:ZemaCr116;biotype=rRNA;transcript_id=ZemaCr116
+Pt	NCBI	exon	102366	102486	.	+	.	Parent=transcript:ZemaCr116;Name=ZemaCr116.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCr116.exon1;rank=1
+###
+Pt	Ensembl_Plants	ncRNA_gene	102369	102485	.	+	.	ID=gene:ENSRNA049479781;Name=5S_rRNA;biotype=rRNA;description=5S ribosomal RNA;gene_id=ENSRNA049479781;logic_name=rfam_12.2_gene
+Pt	Ensembl_Plants	rRNA	102369	102485	.	+	.	ID=transcript:ENSRNA049479781-T1;Parent=gene:ENSRNA049479781;biotype=rRNA;transcript_id=ENSRNA049479781-T1
+Pt	Ensembl_Plants	exon	102369	102485	.	+	.	Parent=transcript:ENSRNA049479781-T1;Name=ENSRNA049479781-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSRNA049479781-E1;rank=1
+###
+Pt	ensembl	ncRNA_gene	102739	102812	.	+	.	ID=gene:ZemaCt147;biotype=tRNA;description=trnRtRNA-Arg;gene_id=ZemaCt147;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	102739	102812	.	+	.	ID=transcript:ZemaCt147;Parent=gene:ZemaCt147;biotype=tRNA;transcript_id=ZemaCt147
+Pt	NCBI	exon	102739	102812	.	+	.	Parent=transcript:ZemaCt147;Name=ZemaCt147.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt147.exon1;rank=1
+###
+Pt	ensembl	gene	102866	102937	.	+	.	ID=gene:ZemaCp080;biotype=protein_coding;description=ZemaCp080;gene_id=ZemaCp080;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	102866	102937	.	+	.	ID=transcript:ZemaCp080;Parent=gene:ZemaCp080;biotype=protein_coding;transcript_id=ZemaCp080
+Pt	NCBI	exon	102866	102937	.	+	.	Parent=transcript:ZemaCp080;Name=ZemaCp080.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp080.exon1;rank=1
+Pt	NCBI	CDS	102866	102937	.	+	0	ID=CDS:ZemaCp080;Parent=transcript:ZemaCp080;protein_id=ZemaCp080
+###
+Pt	Ensembl_Plants	ncRNA_gene	103066	103137	.	-	.	ID=gene:ENSRNA049452066;Name=tRNA-Asn;biotype=tRNA;description=tRNA-Asn for anticodon GUU;gene_id=ENSRNA049452066;logic_name=trnascan_gene
+Pt	Ensembl_Plants	tRNA	103066	103137	.	-	.	ID=transcript:ENSRNA049452066-T1;Parent=gene:ENSRNA049452066;biotype=tRNA;transcript_id=ENSRNA049452066-T1
+Pt	Ensembl_Plants	exon	103066	103137	.	-	.	Parent=transcript:ENSRNA049452066-T1;Name=ENSRNA049452066-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSRNA049452066-E1;rank=1
+###
+Pt	ensembl	ncRNA_gene	103066	103137	.	-	.	ID=gene:ZemaCt148;biotype=tRNA;description=trnNtRNA-Asn;gene_id=ZemaCt148;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	103066	103137	.	-	.	ID=transcript:ZemaCt148;Parent=gene:ZemaCt148;biotype=tRNA;transcript_id=ZemaCt148
+Pt	NCBI	exon	103066	103137	.	-	.	Parent=transcript:ZemaCt148;Name=ZemaCt148.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt148.exon1;rank=1
+###
+Pt	ensembl	gene	104074	104265	.	+	.	ID=gene:ZemaCp081;biotype=protein_coding;description=ZemaCp081;gene_id=ZemaCp081;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	104074	104265	.	+	.	ID=transcript:ZemaCp081;Parent=gene:ZemaCp081;biotype=protein_coding;transcript_id=ZemaCp081
+Pt	NCBI	exon	104074	104265	.	+	.	Parent=transcript:ZemaCp081;Name=ZemaCp081.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp081.exon1;rank=1
+Pt	NCBI	CDS	104074	104265	.	+	0	ID=CDS:ZemaCp081;Parent=transcript:ZemaCp081;protein_id=ZemaCp081
+###
+Pt	ensembl	gene	104729	104965	.	+	.	ID=gene:ZemaCp082;biotype=protein_coding;description=rps15;gene_id=ZemaCp082;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	104729	104965	.	+	.	ID=transcript:ZemaCp082;Parent=gene:ZemaCp082;biotype=protein_coding;transcript_id=ZemaCp082
+Pt	NCBI	exon	104729	104965	.	+	.	Parent=transcript:ZemaCp082;Name=ZemaCp082.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp082.exon1;rank=1
+Pt	NCBI	CDS	104729	104965	.	+	0	ID=CDS:ZemaCp082;Parent=transcript:ZemaCp082;protein_id=ZemaCp082
+###
+Pt	ensembl	gene	105072	107288	.	-	.	ID=gene:ZemaCp083;Name=ndhF;biotype=protein_coding;description=ndhF;gene_id=ZemaCp083;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	105072	107288	.	-	.	ID=transcript:ZemaCp083;Parent=gene:ZemaCp083;biotype=protein_coding;transcript_id=ZemaCp083
+Pt	NCBI	exon	105072	107288	.	-	.	Parent=transcript:ZemaCp083;Name=ZemaCp083.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp083.exon1;rank=1
+Pt	NCBI	CDS	105072	107288	.	-	0	ID=CDS:ZemaCp083;Parent=transcript:ZemaCp083;protein_id=ZemaCp083
+###
+Pt	ensembl	gene	108127	108306	.	+	.	ID=gene:ZemaCp084;Name=rpl32;biotype=protein_coding;description=rpl32;gene_id=ZemaCp084;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	108127	108306	.	+	.	ID=transcript:ZemaCp084;Parent=gene:ZemaCp084;biotype=protein_coding;transcript_id=ZemaCp084
+Pt	NCBI	exon	108127	108306	.	+	.	Parent=transcript:ZemaCp084;Name=ZemaCp084.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp084.exon1;rank=1
+Pt	NCBI	CDS	108127	108306	.	+	0	ID=CDS:ZemaCp084;Parent=transcript:ZemaCp084;protein_id=ZemaCp084
+###
+Pt	ensembl	ncRNA_gene	108837	108917	.	+	.	ID=gene:ZemaCt149;biotype=tRNA;description=trnLtRNA-Leu;gene_id=ZemaCt149;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	108837	108917	.	+	.	ID=transcript:ZemaCt149;Parent=gene:ZemaCt149;biotype=tRNA;transcript_id=ZemaCt149
+Pt	NCBI	exon	108837	108917	.	+	.	Parent=transcript:ZemaCt149;Name=ZemaCt149.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt149.exon1;rank=1
+###
+Pt	ensembl	gene	108995	109960	.	+	.	ID=gene:ZemaCp085;Name=ccsA;biotype=protein_coding;description=ccsA;gene_id=ZemaCp085;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	108995	109960	.	+	.	ID=transcript:ZemaCp085;Parent=gene:ZemaCp085;biotype=protein_coding;transcript_id=ZemaCp085
+Pt	NCBI	exon	108995	109960	.	+	.	Parent=transcript:ZemaCp085;Name=ZemaCp085.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp085.exon1;rank=1
+Pt	NCBI	CDS	108995	109960	.	+	0	ID=CDS:ZemaCp085;Parent=transcript:ZemaCp085;protein_id=ZemaCp085
+###
+Pt	ensembl	gene	110138	111640	.	-	.	ID=gene:ZemaCp086;Name=ndhD;biotype=protein_coding;description=ndhD;gene_id=ZemaCp086;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	110138	111640	.	-	.	ID=transcript:ZemaCp086;Parent=gene:ZemaCp086;biotype=protein_coding;transcript_id=ZemaCp086
+Pt	NCBI	exon	110138	111640	.	-	.	Parent=transcript:ZemaCp086;Name=ZemaCp086.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp086.exon1;rank=1
+Pt	NCBI	CDS	110138	111640	.	-	0	ID=CDS:ZemaCp086;Parent=transcript:ZemaCp086;protein_id=ZemaCp086
+###
+Pt	ensembl	gene	111760	112005	.	-	.	ID=gene:ZemaCp087;Name=psaC;biotype=protein_coding;description=psaC;gene_id=ZemaCp087;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	111760	112005	.	-	.	ID=transcript:ZemaCp087;Parent=gene:ZemaCp087;biotype=protein_coding;transcript_id=ZemaCp087
+Pt	NCBI	exon	111760	112005	.	-	.	Parent=transcript:ZemaCp087;Name=ZemaCp087.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp087.exon1;rank=1
+Pt	NCBI	CDS	111760	112005	.	-	0	ID=CDS:ZemaCp087;Parent=transcript:ZemaCp087;protein_id=ZemaCp087
+###
+Pt	ensembl	gene	112473	112778	.	-	.	ID=gene:ZemaCp088;Name=ndhE;biotype=protein_coding;description=ndhE;gene_id=ZemaCp088;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	112473	112778	.	-	.	ID=transcript:ZemaCp088;Parent=gene:ZemaCp088;biotype=protein_coding;transcript_id=ZemaCp088
+Pt	NCBI	exon	112473	112778	.	-	.	Parent=transcript:ZemaCp088;Name=ZemaCp088.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp088.exon1;rank=1
+Pt	NCBI	CDS	112473	112778	.	-	0	ID=CDS:ZemaCp088;Parent=transcript:ZemaCp088;protein_id=ZemaCp088
+###
+Pt	ensembl	gene	112993	113523	.	-	.	ID=gene:ZemaCp089;Name=ndhG;biotype=protein_coding;description=ndhG;gene_id=ZemaCp089;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	112993	113523	.	-	.	ID=transcript:ZemaCp089;Parent=gene:ZemaCp089;biotype=protein_coding;transcript_id=ZemaCp089
+Pt	NCBI	exon	112993	113523	.	-	.	Parent=transcript:ZemaCp089;Name=ZemaCp089.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp089.exon1;rank=1
+Pt	NCBI	CDS	112993	113523	.	-	0	ID=CDS:ZemaCp089;Parent=transcript:ZemaCp089;protein_id=ZemaCp089
+###
+Pt	ensembl	gene	113707	114249	.	-	.	ID=gene:ZemaCp090;Name=ndhI;biotype=protein_coding;description=ndhI;gene_id=ZemaCp090;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	113707	114249	.	-	.	ID=transcript:ZemaCp090;Parent=gene:ZemaCp090;biotype=protein_coding;transcript_id=ZemaCp090
+Pt	NCBI	exon	113707	114249	.	-	.	Parent=transcript:ZemaCp090;Name=ZemaCp090.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp090.exon1;rank=1
+Pt	NCBI	CDS	113707	114249	.	-	0	ID=CDS:ZemaCp090;Parent=transcript:ZemaCp090;protein_id=ZemaCp090
+###
+Pt	ensembl	gene	114343	116454	.	-	.	ID=gene:ZemaCp091;biotype=protein_coding;description=ndhA;gene_id=ZemaCp091;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	114343	116454	.	-	.	ID=transcript:ZemaCp091;Parent=gene:ZemaCp091;biotype=protein_coding;transcript_id=ZemaCp091
+Pt	NCBI	exon	114343	114881	.	-	.	Parent=transcript:ZemaCp091;Name=ZemaCp091.exon2;constitutive=1;ensembl_end_phase=0;ensembl_phase=1;exon_id=ZemaCp091.exon2;rank=2
+Pt	NCBI	CDS	114343	114881	.	-	2	ID=CDS:ZemaCp091;Parent=transcript:ZemaCp091;protein_id=ZemaCp091
+Pt	NCBI	exon	115905	116454	.	-	.	Parent=transcript:ZemaCp091;Name=ZemaCp091.exon1;constitutive=1;ensembl_end_phase=1;ensembl_phase=0;exon_id=ZemaCp091.exon1;rank=1
+Pt	NCBI	CDS	115905	116454	.	-	0	ID=CDS:ZemaCp091;Parent=transcript:ZemaCp091;protein_id=ZemaCp091
+###
+Pt	ensembl	gene	116456	117637	.	-	.	ID=gene:ZemaCp092;Name=ndhH;biotype=protein_coding;description=ndhH;gene_id=ZemaCp092;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	116456	117637	.	-	.	ID=transcript:ZemaCp092;Parent=gene:ZemaCp092;biotype=protein_coding;transcript_id=ZemaCp092
+Pt	NCBI	exon	116456	117637	.	-	.	Parent=transcript:ZemaCp092;Name=ZemaCp092.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp092.exon1;rank=1
+Pt	NCBI	CDS	116456	117637	.	-	0	ID=CDS:ZemaCp092;Parent=transcript:ZemaCp092;protein_id=ZemaCp092
+###
+Pt	ensembl	gene	117772	118008	.	-	.	ID=gene:ZemaCp093;biotype=protein_coding;description=rps15;gene_id=ZemaCp093;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	117772	118008	.	-	.	ID=transcript:ZemaCp093;Parent=gene:ZemaCp093;biotype=protein_coding;transcript_id=ZemaCp093
+Pt	NCBI	exon	117772	118008	.	-	.	Parent=transcript:ZemaCp093;Name=ZemaCp093.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp093.exon1;rank=1
+Pt	NCBI	CDS	117772	118008	.	-	0	ID=CDS:ZemaCp093;Parent=transcript:ZemaCp093;protein_id=ZemaCp093
+###
+Pt	ensembl	gene	118472	118663	.	-	.	ID=gene:ZemaCp094;biotype=protein_coding;description=ZemaCp094;gene_id=ZemaCp094;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	118472	118663	.	-	.	ID=transcript:ZemaCp094;Parent=gene:ZemaCp094;biotype=protein_coding;transcript_id=ZemaCp094
+Pt	NCBI	exon	118472	118663	.	-	.	Parent=transcript:ZemaCp094;Name=ZemaCp094.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp094.exon1;rank=1
+Pt	NCBI	CDS	118472	118663	.	-	0	ID=CDS:ZemaCp094;Parent=transcript:ZemaCp094;protein_id=ZemaCp094
+###
+Pt	Ensembl_Plants	ncRNA_gene	119600	119671	.	+	.	ID=gene:ENSRNA049452118;Name=tRNA-Asn;biotype=tRNA;description=tRNA-Asn for anticodon GUU;gene_id=ENSRNA049452118;logic_name=trnascan_gene
+Pt	Ensembl_Plants	tRNA	119600	119671	.	+	.	ID=transcript:ENSRNA049452118-T1;Parent=gene:ENSRNA049452118;biotype=tRNA;transcript_id=ENSRNA049452118-T1
+Pt	Ensembl_Plants	exon	119600	119671	.	+	.	Parent=transcript:ENSRNA049452118-T1;Name=ENSRNA049452118-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSRNA049452118-E1;rank=1
+###
+Pt	ensembl	ncRNA_gene	119600	119671	.	+	.	ID=gene:ZemaCt150;biotype=tRNA;description=trnNtRNA-Asn;gene_id=ZemaCt150;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	119600	119671	.	+	.	ID=transcript:ZemaCt150;Parent=gene:ZemaCt150;biotype=tRNA;transcript_id=ZemaCt150
+Pt	NCBI	exon	119600	119671	.	+	.	Parent=transcript:ZemaCt150;Name=ZemaCt150.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt150.exon1;rank=1
+###
+Pt	ensembl	gene	119800	119871	.	-	.	ID=gene:ZemaCp095;biotype=protein_coding;description=ZemaCp095;gene_id=ZemaCp095;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	119800	119871	.	-	.	ID=transcript:ZemaCp095;Parent=gene:ZemaCp095;biotype=protein_coding;transcript_id=ZemaCp095
+Pt	NCBI	exon	119800	119871	.	-	.	Parent=transcript:ZemaCp095;Name=ZemaCp095.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp095.exon1;rank=1
+Pt	NCBI	CDS	119800	119871	.	-	0	ID=CDS:ZemaCp095;Parent=transcript:ZemaCp095;protein_id=ZemaCp095
+###
+Pt	ensembl	ncRNA_gene	119925	119998	.	-	.	ID=gene:ZemaCt151;biotype=tRNA;description=trnRtRNA-Arg;gene_id=ZemaCt151;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	119925	119998	.	-	.	ID=transcript:ZemaCt151;Parent=gene:ZemaCt151;biotype=tRNA;transcript_id=ZemaCt151
+Pt	NCBI	exon	119925	119998	.	-	.	Parent=transcript:ZemaCt151;Name=ZemaCt151.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt151.exon1;rank=1
+###
+Pt	ensembl	ncRNA_gene	120251	120371	.	-	.	ID=gene:ZemaCr117;biotype=rRNA;description=ZemaCr1175S ribosomal RNA;gene_id=ZemaCr117;logic_name=organellar_genes_ncbi
+Pt	NCBI	rRNA	120251	120371	.	-	.	ID=transcript:ZemaCr117;Parent=gene:ZemaCr117;biotype=rRNA;transcript_id=ZemaCr117
+Pt	NCBI	exon	120251	120371	.	-	.	Parent=transcript:ZemaCr117;Name=ZemaCr117.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCr117.exon1;rank=1
+###
+Pt	Ensembl_Plants	ncRNA_gene	120252	120368	.	-	.	ID=gene:ENSRNA049479790;Name=5S_rRNA;biotype=rRNA;description=5S ribosomal RNA;gene_id=ENSRNA049479790;logic_name=rfam_12.2_gene
+Pt	Ensembl_Plants	rRNA	120252	120368	.	-	.	ID=transcript:ENSRNA049479790-T1;Parent=gene:ENSRNA049479790;biotype=rRNA;transcript_id=ENSRNA049479790-T1
+Pt	Ensembl_Plants	exon	120252	120368	.	-	.	Parent=transcript:ENSRNA049479790-T1;Name=ENSRNA049479790-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSRNA049479790-E1;rank=1
+###
+Pt	ensembl	ncRNA_gene	120602	120696	.	-	.	ID=gene:ZemaCr118;biotype=rRNA;description=ZemaCr1184.5 ribosomal RNA;gene_id=ZemaCr118;logic_name=organellar_genes_ncbi
+Pt	NCBI	rRNA	120602	120696	.	-	.	ID=transcript:ZemaCr118;Parent=gene:ZemaCr118;biotype=rRNA;transcript_id=ZemaCr118
+Pt	NCBI	exon	120602	120696	.	-	.	Parent=transcript:ZemaCr118;Name=ZemaCr118.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCr118.exon1;rank=1
+###
+Pt	ensembl	ncRNA_gene	120792	123675	.	-	.	ID=gene:ZemaCr119;biotype=rRNA;description=ZemaCr11923S ribosomal RNA;gene_id=ZemaCr119;logic_name=organellar_genes_ncbi
+Pt	NCBI	rRNA	120792	123675	.	-	.	ID=transcript:ZemaCr119;Parent=gene:ZemaCr119;biotype=rRNA;transcript_id=ZemaCr119
+Pt	NCBI	exon	120792	123675	.	-	.	Parent=transcript:ZemaCr119;Name=ZemaCr119.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCr119.exon1;rank=1
+###
+Pt	ensembl	ncRNA_gene	123821	124699	.	-	.	ID=gene:ZemaCp096;biotype=tRNA;description=trnAtRNA-Ala;gene_id=ZemaCp096;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	123821	124699	.	-	.	ID=transcript:ZemaCp096;Parent=gene:ZemaCp096;biotype=tRNA;transcript_id=ZemaCp096
+Pt	NCBI	exon	123821	123855	.	-	.	Parent=transcript:ZemaCp096;Name=ZemaCp096.exon2;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCp096.exon2;rank=2
+Pt	NCBI	exon	124662	124699	.	-	.	Parent=transcript:ZemaCp096;Name=ZemaCp096.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCp096.exon1;rank=1
+###
+Pt	Ensembl_Plants	ncRNA_gene	123856	123969	.	-	.	ID=gene:ENSRNA049479675;Name=Intron_gpII;biotype=sense_intronic;description=Group II catalytic intron;gene_id=ENSRNA049479675;logic_name=rfam_12.2_gene
+Pt	Ensembl_Plants	lnc_RNA	123856	123969	.	-	.	ID=transcript:ENSRNA049479675-T1;Parent=gene:ENSRNA049479675;biotype=sense_intronic;transcript_id=ENSRNA049479675-T1
+Pt	Ensembl_Plants	exon	123856	123969	.	-	.	Parent=transcript:ENSRNA049479675-T1;Name=ENSRNA049479675-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSRNA049479675-E1;rank=1
+###
+Pt	ensembl	gene	123876	124025	.	-	.	ID=gene:ZemaCp158;biotype=protein_coding;description=ZemaCp158;gene_id=ZemaCp158;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	123876	124025	.	-	.	ID=transcript:ZemaCp158;Parent=gene:ZemaCp158;biotype=protein_coding;transcript_id=ZemaCp158
+Pt	NCBI	exon	123876	124025	.	-	.	Parent=transcript:ZemaCp158;Name=ZemaCp158.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp158.exon1;rank=1
+Pt	NCBI	CDS	123876	124025	.	-	0	ID=CDS:ZemaCp158;Parent=transcript:ZemaCp158;protein_id=ZemaCp158
+###
+Pt	ensembl	ncRNA_gene	124764	125784	.	-	.	ID=gene:ZemaCp097;biotype=tRNA;description=trnItRNA-Ile;gene_id=ZemaCp097;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	124764	125784	.	-	.	ID=transcript:ZemaCp097;Parent=gene:ZemaCp097;biotype=tRNA;transcript_id=ZemaCp097
+Pt	NCBI	exon	124764	124798	.	-	.	Parent=transcript:ZemaCp097;Name=ZemaCp097.exon2;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCp097.exon2;rank=2
+Pt	NCBI	exon	125748	125784	.	-	.	Parent=transcript:ZemaCp097;Name=ZemaCp097.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCp097.exon1;rank=1
+###
+Pt	Ensembl_Plants	ncRNA_gene	124799	124917	.	-	.	ID=gene:ENSRNA049479739;Name=Intron_gpII;biotype=sense_intronic;description=Group II catalytic intron;gene_id=ENSRNA049479739;logic_name=rfam_12.2_gene
+Pt	Ensembl_Plants	lnc_RNA	124799	124917	.	-	.	ID=transcript:ENSRNA049479739-T1;Parent=gene:ENSRNA049479739;biotype=sense_intronic;transcript_id=ENSRNA049479739-T1
+Pt	Ensembl_Plants	exon	124799	124917	.	-	.	Parent=transcript:ENSRNA049479739-T1;Name=ENSRNA049479739-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSRNA049479739-E1;rank=1
+###
+Pt	ensembl	gene	125240	125644	.	-	.	ID=gene:ZemaCp159;Name=ycf68;biotype=protein_coding;description=ZemaCp159;gene_id=ZemaCp159;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	125240	125644	.	-	.	ID=transcript:ZemaCp159;Parent=gene:ZemaCp159;biotype=protein_coding;transcript_id=ZemaCp159
+Pt	NCBI	exon	125240	125644	.	-	.	Parent=transcript:ZemaCp159;Name=ZemaCp159.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp159.exon1;rank=1
+Pt	NCBI	CDS	125240	125644	.	-	0	ID=CDS:ZemaCp159;Parent=transcript:ZemaCp159;protein_id=ZemaCp159
+###
+Pt	ensembl	ncRNA_gene	126086	127576	.	-	.	ID=gene:ZemaCr120;biotype=rRNA;description=ZemaCr12016S ribosomal RNA;gene_id=ZemaCr120;logic_name=organellar_genes_ncbi
+Pt	NCBI	rRNA	126086	127576	.	-	.	ID=transcript:ZemaCr120;Parent=gene:ZemaCr120;biotype=rRNA;transcript_id=ZemaCr120
+Pt	NCBI	exon	126086	127576	.	-	.	Parent=transcript:ZemaCr120;Name=ZemaCr120.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCr120.exon1;rank=1
+###
+Pt	ensembl	ncRNA_gene	127807	127878	.	-	.	ID=gene:ZemaCt152;biotype=tRNA;description=trnVtRNA-Val;gene_id=ZemaCt152;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	127807	127878	.	-	.	ID=transcript:ZemaCt152;Parent=gene:ZemaCt152;biotype=tRNA;transcript_id=ZemaCt152
+Pt	NCBI	exon	127807	127878	.	-	.	Parent=transcript:ZemaCt152;Name=ZemaCt152.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt152.exon1;rank=1
+###
+Pt	ensembl	gene	128116	128373	.	+	.	ID=gene:ZemaCp098;Name=ycf76-B;biotype=protein_coding;description=ZemaCp098;gene_id=ZemaCp098;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	128116	128373	.	+	.	ID=transcript:ZemaCp098;Parent=gene:ZemaCp098;biotype=protein_coding;transcript_id=ZemaCp098
+Pt	NCBI	exon	128116	128373	.	+	.	Parent=transcript:ZemaCp098;Name=ZemaCp098.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp098.exon1;rank=1
+Pt	NCBI	CDS	128116	128373	.	+	0	ID=CDS:ZemaCp098;Parent=transcript:ZemaCp098;protein_id=ZemaCp098
+###
+Pt	ensembl	gene	128423	128599	.	+	.	ID=gene:ZemaCp099;biotype=protein_coding;description=ZemaCp099;gene_id=ZemaCp099;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	128423	128599	.	+	.	ID=transcript:ZemaCp099;Parent=gene:ZemaCp099;biotype=protein_coding;transcript_id=ZemaCp099
+Pt	NCBI	exon	128423	128599	.	+	.	Parent=transcript:ZemaCp099;Name=ZemaCp099.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp099.exon1;rank=1
+Pt	NCBI	CDS	128423	128599	.	+	0	ID=CDS:ZemaCp099;Parent=transcript:ZemaCp099;protein_id=ZemaCp099
+###
+Pt	Ensembl_Plants	ncRNA_gene	129559	129635	.	+	.	ID=gene:ENSRNA049479717;Name=Intron_gpII;biotype=sense_intronic;description=Group II catalytic intron;gene_id=ENSRNA049479717;logic_name=rfam_12.2_gene
+Pt	Ensembl_Plants	lnc_RNA	129559	129635	.	+	.	ID=transcript:ENSRNA049479717-T1;Parent=gene:ENSRNA049479717;biotype=sense_intronic;transcript_id=ENSRNA049479717-T1
+Pt	Ensembl_Plants	exon	129559	129635	.	+	.	Parent=transcript:ENSRNA049479717-T1;Name=ENSRNA049479717-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSRNA049479717-E1;rank=1
+###
+Pt	Ensembl_Plants	ncRNA_gene	130334	130407	.	+	.	ID=gene:ENSRNA049479692;Name=Intron_gpII;biotype=sense_intronic;description=Group II catalytic intron;gene_id=ENSRNA049479692;logic_name=rfam_12.2_gene
+Pt	Ensembl_Plants	lnc_RNA	130334	130407	.	+	.	ID=transcript:ENSRNA049479692-T1;Parent=gene:ENSRNA049479692;biotype=sense_intronic;transcript_id=ENSRNA049479692-T1
+Pt	Ensembl_Plants	exon	130334	130407	.	+	.	Parent=transcript:ENSRNA049479692-T1;Name=ENSRNA049479692-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSRNA049479692-E1;rank=1
+###
+Pt	ensembl	gene	130495	130965	.	+	.	ID=gene:ZemaCp100;Name=rps7-A;biotype=protein_coding;description=rps7;gene_id=ZemaCp100;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	130495	130965	.	+	.	ID=transcript:ZemaCp100;Parent=gene:ZemaCp100;biotype=protein_coding;transcript_id=ZemaCp100
+Pt	NCBI	exon	130495	130965	.	+	.	Parent=transcript:ZemaCp100;Name=ZemaCp100.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp100.exon1;rank=1
+Pt	NCBI	CDS	130495	130965	.	+	0	ID=CDS:ZemaCp100;Parent=transcript:ZemaCp100;protein_id=ZemaCp100
+###
+Pt	ensembl	gene	131265	133501	.	+	.	ID=gene:ZemaCp101;biotype=protein_coding;description=ndhB;gene_id=ZemaCp101;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	131265	133501	.	+	.	ID=transcript:ZemaCp101;Parent=gene:ZemaCp101;biotype=protein_coding;transcript_id=ZemaCp101
+Pt	NCBI	exon	131265	132041	.	+	.	Parent=transcript:ZemaCp101;Name=ZemaCp101.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp101.exon1;rank=1
+Pt	NCBI	CDS	131265	132041	.	+	0	ID=CDS:ZemaCp101;Parent=transcript:ZemaCp101;protein_id=ZemaCp101
+Pt	NCBI	exon	132746	133501	.	+	.	Parent=transcript:ZemaCp101;Name=ZemaCp101.exon2;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp101.exon2;rank=2
+Pt	NCBI	CDS	132746	133501	.	+	0	ID=CDS:ZemaCp101;Parent=transcript:ZemaCp101;protein_id=ZemaCp101
+###
+Pt	Ensembl_Plants	ncRNA_gene	132667	132745	.	+	.	ID=gene:ENSRNA049479751;Name=Intron_gpII;biotype=sense_intronic;description=Group II catalytic intron;gene_id=ENSRNA049479751;logic_name=rfam_12.2_gene
+Pt	Ensembl_Plants	lnc_RNA	132667	132745	.	+	.	ID=transcript:ENSRNA049479751-T1;Parent=gene:ENSRNA049479751;biotype=sense_intronic;transcript_id=ENSRNA049479751-T1
+Pt	Ensembl_Plants	exon	132667	132745	.	+	.	Parent=transcript:ENSRNA049479751-T1;Name=ENSRNA049479751-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSRNA049479751-E1;rank=1
+###
+Pt	ensembl	ncRNA_gene	134073	134153	.	+	.	ID=gene:ZemaCt153;biotype=tRNA;description=trnLtRNA-Leu;gene_id=ZemaCt153;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	134073	134153	.	+	.	ID=transcript:ZemaCt153;Parent=gene:ZemaCt153;biotype=tRNA;transcript_id=ZemaCt153
+Pt	NCBI	exon	134073	134153	.	+	.	Parent=transcript:ZemaCt153;Name=ZemaCt153.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt153.exon1;rank=1
+###
+Pt	ensembl	gene	134341	134862	.	-	.	ID=gene:ZemaCp102;Name=ycf73-A;biotype=protein_coding;description=ZemaCp102;gene_id=ZemaCp102;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	134341	134862	.	-	.	ID=transcript:ZemaCp102;Parent=gene:ZemaCp102;biotype=protein_coding;transcript_id=ZemaCp102
+Pt	NCBI	exon	134341	134862	.	-	.	Parent=transcript:ZemaCp102;Name=ZemaCp102.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp102.exon1;rank=1
+Pt	NCBI	CDS	134341	134862	.	-	0	ID=CDS:ZemaCp102;Parent=transcript:ZemaCp102;protein_id=ZemaCp102
+###
+Pt	ensembl	gene	134923	135222	.	-	.	ID=gene:ZemaCp103;Name=ycf15-A;biotype=protein_coding;description=ZemaCp103;gene_id=ZemaCp103;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	134923	135222	.	-	.	ID=transcript:ZemaCp103;Parent=gene:ZemaCp103;biotype=protein_coding;transcript_id=ZemaCp103
+Pt	NCBI	exon	134923	135222	.	-	.	Parent=transcript:ZemaCp103;Name=ZemaCp103.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp103.exon1;rank=1
+Pt	NCBI	CDS	134923	135222	.	-	0	ID=CDS:ZemaCp103;Parent=transcript:ZemaCp103;protein_id=ZemaCp103
+###
+Pt	ensembl	gene	136030	136449	.	-	.	ID=gene:ZemaCp104;biotype=protein_coding;description=ZemaCp104;gene_id=ZemaCp104;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	136030	136449	.	-	.	ID=transcript:ZemaCp104;Parent=gene:ZemaCp104;biotype=protein_coding;transcript_id=ZemaCp104
+Pt	NCBI	exon	136030	136449	.	-	.	Parent=transcript:ZemaCp104;Name=ZemaCp104.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp104.exon1;rank=1
+Pt	NCBI	CDS	136030	136449	.	-	0	ID=CDS:ZemaCp104;Parent=transcript:ZemaCp104;protein_id=ZemaCp104
+###
+Pt	ensembl	gene	136736	137461	.	-	.	ID=gene:ZemaCp105;biotype=protein_coding;description=ZemaCp105;gene_id=ZemaCp105;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	136736	137461	.	-	.	ID=transcript:ZemaCp105;Parent=gene:ZemaCp105;biotype=protein_coding;transcript_id=ZemaCp105
+Pt	NCBI	exon	136736	137461	.	-	.	Parent=transcript:ZemaCp105;Name=ZemaCp105.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp105.exon1;rank=1
+Pt	NCBI	CDS	136736	137461	.	-	0	ID=CDS:ZemaCp105;Parent=transcript:ZemaCp105;protein_id=ZemaCp105
+###
+Pt	ensembl	gene	137492	137596	.	-	.	ID=gene:ZemaCp106;biotype=protein_coding;description=ZemaCp106;gene_id=ZemaCp106;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	137492	137596	.	-	.	ID=transcript:ZemaCp106;Parent=gene:ZemaCp106;biotype=protein_coding;transcript_id=ZemaCp106
+Pt	NCBI	exon	137492	137596	.	-	.	Parent=transcript:ZemaCp106;Name=ZemaCp106.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp106.exon1;rank=1
+Pt	NCBI	CDS	137492	137596	.	-	0	ID=CDS:ZemaCp106;Parent=transcript:ZemaCp106;protein_id=ZemaCp106
+###
+Pt	ensembl	gene	137578	137718	.	-	.	ID=gene:ZemaCp107;biotype=protein_coding;description=ZemaCp107;gene_id=ZemaCp107;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	137578	137718	.	-	.	ID=transcript:ZemaCp107;Parent=gene:ZemaCp107;biotype=protein_coding;transcript_id=ZemaCp107
+Pt	NCBI	exon	137578	137718	.	-	.	Parent=transcript:ZemaCp107;Name=ZemaCp107.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp107.exon1;rank=1
+Pt	NCBI	CDS	137578	137718	.	-	0	ID=CDS:ZemaCp107;Parent=transcript:ZemaCp107;protein_id=ZemaCp107
+###
+Pt	ensembl	ncRNA_gene	137783	137856	.	+	.	ID=gene:ZemaCt154;biotype=tRNA;description=trnItRNA-Ile;gene_id=ZemaCt154;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	137783	137856	.	+	.	ID=transcript:ZemaCt154;Parent=gene:ZemaCt154;biotype=tRNA;transcript_id=ZemaCt154
+Pt	NCBI	exon	137783	137856	.	+	.	Parent=transcript:ZemaCt154;Name=ZemaCt154.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt154.exon1;rank=1
+###
+Pt	ensembl	gene	138023	138304	.	+	.	ID=gene:ZemaCp108;Name=rpl23-A;biotype=protein_coding;description=rpl23;gene_id=ZemaCp108;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	138023	138304	.	+	.	ID=transcript:ZemaCp108;Parent=gene:ZemaCp108;biotype=protein_coding;transcript_id=ZemaCp108
+Pt	NCBI	exon	138023	138304	.	+	.	Parent=transcript:ZemaCp108;Name=ZemaCp108.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp108.exon1;rank=1
+Pt	NCBI	CDS	138023	138304	.	+	0	ID=CDS:ZemaCp108;Parent=transcript:ZemaCp108;protein_id=ZemaCp108
+###
+Pt	ensembl	gene	138323	139807	.	+	.	ID=gene:ZemaCp109;biotype=protein_coding;description=rpl2;gene_id=ZemaCp109;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	138323	139807	.	+	.	ID=transcript:ZemaCp109;Parent=gene:ZemaCp109;biotype=protein_coding;transcript_id=ZemaCp109
+Pt	NCBI	exon	138323	138712	.	+	.	Parent=transcript:ZemaCp109;Name=ZemaCp109.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp109.exon1;rank=1
+Pt	NCBI	CDS	138323	138712	.	+	0	ID=CDS:ZemaCp109;Parent=transcript:ZemaCp109;protein_id=ZemaCp109
+Pt	NCBI	exon	139376	139807	.	+	.	Parent=transcript:ZemaCp109;Name=ZemaCp109.exon2;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp109.exon2;rank=2
+Pt	NCBI	CDS	139376	139807	.	+	0	ID=CDS:ZemaCp109;Parent=transcript:ZemaCp109;protein_id=ZemaCp109
+###
+Pt	ensembl	gene	139288	139701	.	-	.	ID=gene:ZemaCp110;Name=ycf72-1;biotype=protein_coding;description=ZemaCp110;gene_id=ZemaCp110;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	139288	139701	.	-	.	ID=transcript:ZemaCp110;Parent=gene:ZemaCp110;biotype=protein_coding;transcript_id=ZemaCp110
+Pt	NCBI	exon	139288	139701	.	-	.	Parent=transcript:ZemaCp110;Name=ZemaCp110.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp110.exon1;rank=1
+Pt	NCBI	CDS	139288	139701	.	-	0	ID=CDS:ZemaCp110;Parent=transcript:ZemaCp110;protein_id=ZemaCp110
+###
+Pt	Ensembl_Plants	ncRNA_gene	139301	139377	.	+	.	ID=gene:ENSRNA049479768;Name=Intron_gpII;biotype=sense_intronic;description=Group II catalytic intron;gene_id=ENSRNA049479768;logic_name=rfam_12.2_gene
+Pt	Ensembl_Plants	lnc_RNA	139301	139377	.	+	.	ID=transcript:ENSRNA049479768-T1;Parent=gene:ENSRNA049479768;biotype=sense_intronic;transcript_id=ENSRNA049479768-T1
+Pt	Ensembl_Plants	exon	139301	139377	.	+	.	Parent=transcript:ENSRNA049479768-T1;Name=ENSRNA049479768-E1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ENSRNA049479768-E1;rank=1
+###
+Pt	ensembl	gene	139824	140048	.	+	.	ID=gene:ZemaCp111;biotype=protein_coding;description=ZemaCp111;gene_id=ZemaCp111;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	139824	140048	.	+	.	ID=transcript:ZemaCp111;Parent=gene:ZemaCp111;biotype=protein_coding;transcript_id=ZemaCp111
+Pt	NCBI	exon	139824	140048	.	+	.	Parent=transcript:ZemaCp111;Name=ZemaCp111.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp111.exon1;rank=1
+Pt	NCBI	CDS	139824	140048	.	+	0	ID=CDS:ZemaCp111;Parent=transcript:ZemaCp111;protein_id=ZemaCp111
+###
+Pt	ensembl	ncRNA_gene	139863	139937	.	-	.	ID=gene:ZemaCt155;biotype=tRNA;description=trnHtRNA-His;gene_id=ZemaCt155;logic_name=organellar_genes_ncbi
+Pt	NCBI	tRNA	139863	139937	.	-	.	ID=transcript:ZemaCt155;Parent=gene:ZemaCt155;biotype=tRNA;transcript_id=ZemaCt155
+Pt	NCBI	exon	139863	139937	.	-	.	Parent=transcript:ZemaCt155;Name=ZemaCt155.exon1;constitutive=1;ensembl_end_phase=-1;ensembl_phase=-1;exon_id=ZemaCt155.exon1;rank=1
+###
+Pt	ensembl	gene	140068	140349	.	+	.	ID=gene:ZemaCp112;biotype=protein_coding;description=rps19;gene_id=ZemaCp112;logic_name=organellar_genes_ncbi
+Pt	NCBI	mRNA	140068	140349	.	+	.	ID=transcript:ZemaCp112;Parent=gene:ZemaCp112;biotype=protein_coding;transcript_id=ZemaCp112
+Pt	NCBI	exon	140068	140349	.	+	.	Parent=transcript:ZemaCp112;Name=ZemaCp112.exon1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=ZemaCp112.exon1;rank=1
+Pt	NCBI	CDS	140068	140349	.	+	0	ID=CDS:ZemaCp112;Parent=transcript:ZemaCp112;protein_id=ZemaCp112
+###
