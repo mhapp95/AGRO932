@@ -1,0 +1,27 @@
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
+
+# User specific environment and startup programs
+
+PATH=$PATH:$HOME/.local/bin:$HOME/bin
+PATH=$PATH:~/bin/wgsim/
+PATH=$PATH:~/bin/htslib/
+PATH=$PATH:~/bin/angsd/
+PATH=$PATH:~/bin/angsd/misc/
+export PATH
+
+LDFLAGS=$LDFLAGS:/~/bin/lib/
+
+export LD_FLAGS
+
+LIBRARY_PATH=$LIBRARY_PATH:/home/soybean/mhapp95/bin/lib/
+
+export LIBRARY_PATH
+
+LD_LIBRARY_PATH=$LIBRARY_PATH:/home/soybean/mhapp95/bin/lib/
+
+export LD_LIBRARY_PATH
