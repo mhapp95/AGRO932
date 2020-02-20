@@ -1,0 +1,300 @@
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 7000 sequences (1050000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 2358, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (464, 498, 532)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (328, 668)
+[M::mem_pestat] mean and std.dev: (498.21, 49.39)
+[M::mem_pestat] low and high boundaries for proper pairs: (260, 736)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 7000 reads in 1.624 CPU sec, 1.632 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem reference/ZeaMays_Chloroplast.fasta raw/pop1_1.read1.fq raw/pop1_1.read2.fq
+[main] Real time: 1.773 sec; CPU: 1.660 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 7000 sequences (1050000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 2358, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (464, 498, 532)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (328, 668)
+[M::mem_pestat] mean and std.dev: (498.21, 49.39)
+[M::mem_pestat] low and high boundaries for proper pairs: (260, 736)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 7000 reads in 1.571 CPU sec, 1.578 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem reference/ZeaMays_Chloroplast.fasta raw/pop1_2.read1.fq raw/pop1_2.read2.fq
+[main] Real time: 1.708 sec; CPU: 1.596 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 7000 sequences (1050000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 2358, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (464, 498, 532)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (328, 668)
+[M::mem_pestat] mean and std.dev: (498.21, 49.39)
+[M::mem_pestat] low and high boundaries for proper pairs: (260, 736)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 7000 reads in 1.658 CPU sec, 1.666 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem reference/ZeaMays_Chloroplast.fasta raw/pop1_3.read1.fq raw/pop1_3.read2.fq
+[main] Real time: 1.803 sec; CPU: 1.687 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 7000 sequences (1050000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 2374, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (463, 499, 531)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (327, 667)
+[M::mem_pestat] mean and std.dev: (498.20, 49.68)
+[M::mem_pestat] low and high boundaries for proper pairs: (259, 735)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 7000 reads in 1.668 CPU sec, 1.677 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem reference/ZeaMays_Chloroplast.fasta raw/pop1_4.read1.fq raw/pop1_4.read2.fq
+[main] Real time: 1.843 sec; CPU: 1.699 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 7000 sequences (1050000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 2374, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (463, 499, 531)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (327, 667)
+[M::mem_pestat] mean and std.dev: (498.20, 49.68)
+[M::mem_pestat] low and high boundaries for proper pairs: (259, 735)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 7000 reads in 1.649 CPU sec, 1.655 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem reference/ZeaMays_Chloroplast.fasta raw/pop1_5.read1.fq raw/pop1_5.read2.fq
+[main] Real time: 1.794 sec; CPU: 1.681 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 7000 sequences (1050000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 2374, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (463, 499, 531)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (327, 667)
+[M::mem_pestat] mean and std.dev: (498.20, 49.68)
+[M::mem_pestat] low and high boundaries for proper pairs: (259, 735)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 7000 reads in 1.640 CPU sec, 1.649 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem reference/ZeaMays_Chloroplast.fasta raw/pop1_6.read1.fq raw/pop1_6.read2.fq
+[main] Real time: 1.780 sec; CPU: 1.667 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 7000 sequences (1050000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 2374, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (463, 499, 531)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (327, 667)
+[M::mem_pestat] mean and std.dev: (498.20, 49.68)
+[M::mem_pestat] low and high boundaries for proper pairs: (259, 735)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 7000 reads in 1.646 CPU sec, 1.656 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem reference/ZeaMays_Chloroplast.fasta raw/pop1_7.read1.fq raw/pop1_7.read2.fq
+[main] Real time: 1.794 sec; CPU: 1.676 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 7000 sequences (1050000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 2374, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (463, 499, 531)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (327, 667)
+[M::mem_pestat] mean and std.dev: (498.20, 49.68)
+[M::mem_pestat] low and high boundaries for proper pairs: (259, 735)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 7000 reads in 1.632 CPU sec, 1.642 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem reference/ZeaMays_Chloroplast.fasta raw/pop1_8.read1.fq raw/pop1_8.read2.fq
+[main] Real time: 1.772 sec; CPU: 1.659 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 7000 sequences (1050000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 2374, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (463, 499, 531)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (327, 667)
+[M::mem_pestat] mean and std.dev: (498.20, 49.68)
+[M::mem_pestat] low and high boundaries for proper pairs: (259, 735)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 7000 reads in 1.623 CPU sec, 1.633 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem reference/ZeaMays_Chloroplast.fasta raw/pop1_9.read1.fq raw/pop1_9.read2.fq
+[main] Real time: 1.768 sec; CPU: 1.650 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 7000 sequences (1050000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 2374, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (463, 499, 531)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (327, 667)
+[M::mem_pestat] mean and std.dev: (498.20, 49.68)
+[M::mem_pestat] low and high boundaries for proper pairs: (259, 735)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 7000 reads in 1.634 CPU sec, 1.643 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem reference/ZeaMays_Chloroplast.fasta raw/pop1_10.read1.fq raw/pop1_10.read2.fq
+[main] Real time: 1.784 sec; CPU: 1.665 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 7000 sequences (1050000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 2361, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (462, 497, 531)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (324, 669)
+[M::mem_pestat] mean and std.dev: (497.03, 50.57)
+[M::mem_pestat] low and high boundaries for proper pairs: (255, 738)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 7000 reads in 1.609 CPU sec, 1.618 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem reference/ZeaMays_Chloroplast.fasta raw/pop2_1.read1.fq raw/pop2_1.read2.fq
+[main] Real time: 1.750 sec; CPU: 1.636 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 7000 sequences (1050000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 2361, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (462, 497, 531)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (324, 669)
+[M::mem_pestat] mean and std.dev: (497.03, 50.57)
+[M::mem_pestat] low and high boundaries for proper pairs: (255, 738)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 7000 reads in 1.621 CPU sec, 1.632 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem reference/ZeaMays_Chloroplast.fasta raw/pop2_2.read1.fq raw/pop2_2.read2.fq
+[main] Real time: 1.758 sec; CPU: 1.647 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 7000 sequences (1050000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 2361, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (462, 497, 531)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (324, 669)
+[M::mem_pestat] mean and std.dev: (497.03, 50.57)
+[M::mem_pestat] low and high boundaries for proper pairs: (255, 738)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 7000 reads in 1.627 CPU sec, 1.635 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem reference/ZeaMays_Chloroplast.fasta raw/pop2_3.read1.fq raw/pop2_3.read2.fq
+[main] Real time: 1.766 sec; CPU: 1.654 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 7000 sequences (1050000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 2361, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (462, 497, 531)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (324, 669)
+[M::mem_pestat] mean and std.dev: (497.03, 50.57)
+[M::mem_pestat] low and high boundaries for proper pairs: (255, 738)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 7000 reads in 1.624 CPU sec, 1.632 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem reference/ZeaMays_Chloroplast.fasta raw/pop2_4.read1.fq raw/pop2_4.read2.fq
+[main] Real time: 1.776 sec; CPU: 1.654 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 7000 sequences (1050000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 2361, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (462, 497, 531)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (324, 669)
+[M::mem_pestat] mean and std.dev: (497.03, 50.57)
+[M::mem_pestat] low and high boundaries for proper pairs: (255, 738)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 7000 reads in 1.634 CPU sec, 1.642 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem reference/ZeaMays_Chloroplast.fasta raw/pop2_5.read1.fq raw/pop2_5.read2.fq
+[main] Real time: 1.788 sec; CPU: 1.668 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 7000 sequences (1050000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 2361, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (462, 497, 531)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (324, 669)
+[M::mem_pestat] mean and std.dev: (497.03, 50.57)
+[M::mem_pestat] low and high boundaries for proper pairs: (255, 738)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 7000 reads in 1.668 CPU sec, 1.678 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem reference/ZeaMays_Chloroplast.fasta raw/pop2_6.read1.fq raw/pop2_6.read2.fq
+[main] Real time: 1.829 sec; CPU: 1.704 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 7000 sequences (1050000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 2361, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (462, 497, 531)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (324, 669)
+[M::mem_pestat] mean and std.dev: (497.03, 50.57)
+[M::mem_pestat] low and high boundaries for proper pairs: (255, 738)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 7000 reads in 1.641 CPU sec, 1.646 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem reference/ZeaMays_Chloroplast.fasta raw/pop2_7.read1.fq raw/pop2_7.read2.fq
+[main] Real time: 1.783 sec; CPU: 1.672 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 7000 sequences (1050000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 2361, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (462, 497, 531)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (324, 669)
+[M::mem_pestat] mean and std.dev: (497.03, 50.57)
+[M::mem_pestat] low and high boundaries for proper pairs: (255, 738)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 7000 reads in 1.640 CPU sec, 1.648 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem reference/ZeaMays_Chloroplast.fasta raw/pop2_8.read1.fq raw/pop2_8.read2.fq
+[main] Real time: 1.785 sec; CPU: 1.670 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 7000 sequences (1050000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 2338, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (466, 500, 534)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (330, 670)
+[M::mem_pestat] mean and std.dev: (500.27, 49.19)
+[M::mem_pestat] low and high boundaries for proper pairs: (262, 738)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 7000 reads in 1.657 CPU sec, 1.666 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem reference/ZeaMays_Chloroplast.fasta raw/pop2_9.read1.fq raw/pop2_9.read2.fq
+[main] Real time: 1.801 sec; CPU: 1.686 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 7000 sequences (1050000 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 2338, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (466, 500, 534)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (330, 670)
+[M::mem_pestat] mean and std.dev: (500.27, 49.19)
+[M::mem_pestat] low and high boundaries for proper pairs: (262, 738)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 7000 reads in 1.644 CPU sec, 1.652 real sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa mem reference/ZeaMays_Chloroplast.fasta raw/pop2_10.read1.fq raw/pop2_10.read2.fq
+[main] Real time: 1.791 sec; CPU: 1.671 sec

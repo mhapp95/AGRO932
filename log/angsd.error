@@ -1,0 +1,38 @@
+	-> Version of fname:raw/pop1.saf.idx is:2
+	-> Assuming .saf.gz file: raw/pop1.saf.gz
+	-> Assuming .saf.pos.gz: raw/pop1.saf.pos.gz
+	-> Version of fname:raw/pop2.saf.idx is:2
+	-> Assuming .saf.gz file: raw/pop2.saf.gz
+	-> Assuming .saf.pos.gz: raw/pop2.saf.pos.gz
+	-> args: tole:0.000001 nthreads:4 maxiter:100 nsites:0 start:raw/pop1.pop2.ml chr:(null) start:-1 stop:-1 fstout:raw/out oldout:0 seed:1582205841 bootstrap:0 resample_chr:0 whichFst:0 fold:0 ref:(null) anc:(null)
+	-> nSites: 100000
+	-> IMPORTANT: please make sure that your saf files hasnt been folded with -fold 1 in -doSaf in angsd
+	-> [reynoldFst] sfs1:20 sfs2:20 dimspace:441 
+	-> generating offset remapper lookup
+will breakk
+	-> Reading: raw/pop1.pop2.ml assuming counts (will normalize to probs internally)
+	-> Done reading data from chromosome will prepare next chromosome
+	-> hello Im the master merge part of realSFS. and I'll now do a tripple bypass to find intersect 
+	-> 1) Will set iter according to chooseChr and start and stop, and possibly using -sites
+	-> Sites to keep[Pt] from pop0:	140336
+	-> Sites to keep[Pt] from pop1:	140336
+	-> [readdata] lastread:100000 posi:37
+	-> Comparing positions: 1 with 0 has:100000
+	-> Will now do fst temp dump using a chunk of 100000
+	-> [readdata] lastread:40336 posi:100037
+	-> Comparing positions: 1 with 0 has:40336
+	-> Will now do fst temp dump using a chunk of 40336
+	-> Only read nSites: 0 will therefore prepare next chromosome (or exit)
+	-> Will now do fst temp dump using a chunk of 0
+	-> fst index finished with no errors!
+		 Example runs:
+	 realSFS fst stats  raw/out.fst.idx 
+	 realSFS fst stats2 raw/out.fst.idx 
+	-> Assuming idxname:raw/out.fst.idx
+	-> Assuming .fst.gz file: raw/out.fst.gz
+	-> FST.Unweight[nObs:140336]:0.114655 Fst.Weight:0.475549
+	-> Assuming idxname:raw/out.fst.idx
+	-> Assuming .fst.gz file: raw/out.fst.gz
+	-> args: tole:0.000001 nthreads:4 maxiter:100 nsites:0 start:(null) chr:(null) start:-1 stop:-1 fstout:(null) oldout:0 seed:1582205843 bootstrap:0 resample_chr:0 whichFst:0 fold:0 ref:(null) anc:(null)
+win:500 step:100
+nSites:140336
