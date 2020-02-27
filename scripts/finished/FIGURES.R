@@ -5,15 +5,28 @@ library(data.table)
 library(readr)
 library(ggplot2)
 
+
+s<-scan('raw/out.sfs')
+s<-s[-c(1,length(s))]
+s<-s/sum(s)
+png("figures/SFS.png", width=400, height=400)
+barplot(s,names=1:length(s),main='SFS', col="slategray", xlab="Frequency", ylab="Density")
+dev.off()
+
 thetas <- fread("raw/theta.txt")
 png("figures/DistThetas.png", width=400, height=400)
-hist(thetas$Pairwise)
+hist(thetas$Pairwise, col="seagreen, xlab="Pairwise Thetas", main="Distribution of Pairwise Thetas")
 dev.off()
 
 fst <- read.table("raw/fst_win.txt", skip=1, header=FALSE)
 names(fst)[c(3,5)] <- c("midp", "fst")
 png("figures/ScatterPlotFst.png", width=400, height=400)
-plot(fst$midp, fst$fst, xlab="Physical position", ylab="Fst", col="#5f9ea0", pch=16)
+plot(fst$midp, fst$fst, xlab="Physical position (bp)", ylab="Fst", col="#5f9ea0", pch=16, main="Per Site Fst")
+dev.off()
+
+thetastwo <- fread("raw/thetasWindow.pestPG")
+png("figures/DistTajima.png", width=400, height=400)
+hist(thetastwo$Tajima, breaks=30, col="plum", xlab="Tajima's D", main="Distribution of Tajima's D")
 dev.off()
 
 gff <- fread(cmd='grep -v "#" reference/ZeaMays_Chloroplast.gff3', header=FALSE, data.table=FALSE)

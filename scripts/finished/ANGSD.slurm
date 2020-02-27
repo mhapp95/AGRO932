@@ -11,13 +11,14 @@
 cd /work/soybean/mhapp95/AGRO932/AGRO932/data/
 
 ##### write bam to txt file #####
-#ls raw/*sorted*.bam > raw/bam.txt
-#angsd -bam raw/bam.txt -doSaf 1 -anc reference/ZeaMays_Chloroplast.fasta -GL 1 -out raw/out 
-#realSFS raw/out.saf.idx > raw/out.sfs
+ls raw/*sorted*.bam > raw/bam.txt
+angsd -bam raw/bam.txt -doSaf 1 -anc reference/ZeaMays_Chloroplast.fasta -GL 1 -out raw/out 
+realSFS raw/out.saf.idx > raw/out.sfs
 
 ###### calculate theta #####
-#angsd -bam raw/bam.txt -out raw/out -doThetas 1 -doSaf 1 -pest raw/out.sfs -anc reference/ZeaMays_Chloroplast.fasta -GL 1
-#thetaStat print raw/out.thetas.idx > raw/theta.txt
+angsd -bam raw/bam.txt -out raw/out -doThetas 1 -doSaf 1 -pest raw/out.sfs -anc reference/ZeaMays_Chloroplast.fasta -GL 1
+thetaStat print raw/out.thetas.idx > raw/theta.txt
+thetaStat do_stat raw/out.thetas.idx -win 5000 -step 1000  -outnames thetasWindow
 
 ##### calculate Fst #####
 
